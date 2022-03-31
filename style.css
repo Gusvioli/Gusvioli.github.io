@@ -1,11 +1,6 @@
 body {
-    background-color: rgb(173,216,230);
-}
-#nome {
-    font-family: Verdana;
-}
-#descricao {
-    font-family: monospace;
+    background-color: rgb(99, 152, 170);
+    padding: 20px 15px;
 }
 strong {
     font-size: 16px;
@@ -15,18 +10,58 @@ em {
     font-size: 14px;
     font-style: oblique;
 }
+ol {
+    font-family:  monospace, sans-serif;
+}
+#nome {
+    font-family: Verdana;
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(116, 69, 25);
+}
+#descricao-conteudo {
+    font-family: monospace;
+    width: 700px;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 14px;
+}
+#indice, #descricao, #habilidades, #blog{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(116, 69, 25);
+}
 .li-1 {
     font-size: 20px;
 }
 .li-2 {
-    font-size: 18px;
+    font-size: 19px;
+    font-weight: 500;
 }
 .li-3 {
-    font-size: 16px;
+    font-size: 18px;
 }
 .li-4 {
-    font-size: 14px; 
+    font-size: 17px; 
 }
 .li-5 {
-    font-size: 21px;
+    font-size: 16px;
+}
+.li-ul{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.btn-blog {
+    font-size: 22px;
+    color: black;
+    background-color: rgb(221, 119, 23);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: monospace, sans-serif;
+}
+.img-foto{
+    border-radius: 200px;
+    width: 300px;
 }
