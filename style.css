@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(173,216,230);
+}
+#nome {
+    font-family: Verdana;
+}
+#descricao {
+    font-family: monospace;
+}
+strong {
+    font-size: 16px;
+    font-style: oblique;
+}
+em {
+    font-size: 14px;
+    font-style: oblique;
+}
+.li-1 {
+    font-size: 20px;
+}
+.li-2 {
+    font-size: 18px;
+}
+.li-3 {
+    font-size: 16px;
+}
+.li-4 {
+    font-size: 14px; 
+}
+.li-5 {
+    font-size: 21px;
+}
