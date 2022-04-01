@@ -52,6 +52,11 @@ ol {
     font-size: 18px;
     color: black;
 }
+.li-ul:hover{
+    text-decoration: underline;
+    font-size: 18px;
+    color: black;
+}
 .btn-blog {
     font-size: 22px;
     color: black;
@@ -61,6 +66,7 @@ ol {
     text-decoration: none;
     font-family: monospace, sans-serif;
 }
+
 .img-foto{
     border-radius: 200px;
     width: 300px;
