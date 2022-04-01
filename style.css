@@ -33,10 +33,11 @@ ol {
 }
 .li-1 {
     font-size: 20px;
+    font-weight: 800;
 }
 .li-2 {
     font-size: 19px;
-    font-weight: 500;
+    font-weight: 900;
 }
 .li-3 {
     font-size: 18px;
