@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(99, 152, 170);
+    background-color: rgb(162, 193, 202);
     padding: 20px 15px;
 }
 strong {
@@ -26,7 +26,7 @@ ol {
     text-align: justify;
     font-size: 14px;
 }
-#indice, #descricao, #habilidades, #blog{
+#indice, #descricao, #habilidades, #blog {
     font-size: 24px;
     font-weight: 600;
     color: rgb(116, 69, 25);
@@ -47,8 +47,13 @@ ol {
 .li-5 {
     font-size: 16px;
 }
-.li-ul{
+.li-ul {
     text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.li-ul:hover {
+    text-decoration: underline;
     font-size: 18px;
     color: black;
 }
@@ -61,6 +66,7 @@ ol {
     text-decoration: none;
     font-family: monospace, sans-serif;
 }
+
 .img-foto{
     border-radius: 200px;
     width: 300px;
