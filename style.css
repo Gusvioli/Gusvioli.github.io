@@ -26,7 +26,7 @@ ol {
     text-align: justify;
     font-size: 14px;
 }
-#indice, #descricao, #habilidades, #blog{
+#indice, #descricao, #habilidades, #blog {
     font-size: 24px;
     font-weight: 600;
     color: rgb(116, 69, 25);
@@ -47,12 +47,12 @@ ol {
 .li-5 {
     font-size: 16px;
 }
-.li-ul{
+.li-ul {
     text-decoration: none;
     font-size: 18px;
     color: black;
 }
-.li-ul:hover{
+.li-ul:hover {
     text-decoration: underline;
     font-size: 18px;
     color: black;
