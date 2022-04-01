@@ -13,6 +13,11 @@ em {
 ol {
     font-family:  monospace, sans-serif;
 }
+span {
+    font-weight: 600;
+    font-size: larger;
+    color: darkcyan;
+}
 #nome {
     font-family: Verdana;
     font-size: 36px;
@@ -21,7 +26,6 @@ ol {
 }
 #descricao-conteudo {
     font-family: monospace;
-    width: 700px;
     font-weight: 400;
     text-align: justify;
     font-size: 14px;
@@ -71,4 +75,9 @@ ol {
 .img-foto{
     border-radius: 200px;
     width: 300px;
+}
+.paragrafo-descricao {
+    background-color: rgb(172, 201, 209);   
+    padding: 10px 15px;
+    width: 80%;
 }
