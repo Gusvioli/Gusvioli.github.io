@@ -79,7 +79,6 @@ span {
     text-decoration: none;
     font-family: monospace, sans-serif;
 }
-
 .img-foto{
     border-radius: 200px;
     width: 250px;
@@ -88,12 +87,10 @@ span {
     padding: 10px 15px;
     width: 80%;
 }
-
 .div-class-nome-indice {
     /* border: 2px solid #000000; */
     margin: 10px;
 }
-
 .div-class-img-descricao {
     /* border: 2px solid #000000; */
     display: flex; 
@@ -103,7 +100,6 @@ span {
     width: 90%;
 
 }
-
 .div-img {
     background-color: rgb(210, 241, 234);
     padding: 15px;
@@ -134,6 +130,9 @@ span {
 }
 .habilidades {
     padding: 100px;
+}
+ol > li:nth-child(even) {
+    text-transform: lowercase;
 }
 .div-h2-blog {
     position: absolute;
