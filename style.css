@@ -1,9 +1,9 @@
-body {
-    background-color: rgb(162, 193, 202);
-    padding: 20px 15px;
+* {
+    margin: 0;
 }
-div, h1, h2, ul, ol, img, a {
-    
+body {
+    background-color: rgb(186, 220, 229);
+    padding: 20px 15px;
 }
 strong {
     font-size: 16px;
@@ -26,6 +26,7 @@ span {
     font-size: 36px;
     font-weight: 600;
     color: rgb(116, 69, 25);
+    text-align: center;
 }
 #descricao-conteudo {
     font-family: monospace;
@@ -38,9 +39,13 @@ span {
     font-weight: 600;
     color: rgb(116, 69, 25);
 }
+.li-1, .li-2, .li-3, .li-4, .li-5 {
+    margin-left: 20px;
+}
 .li-1 {
     font-size: 20px;
     font-weight: 800;
+    margin-left: 20px;
 }
 .li-2 {
     font-size: 19px;
@@ -77,10 +82,66 @@ span {
 
 .img-foto{
     border-radius: 200px;
-    width: 300px;
+    width: 250px;
 }
 .paragrafo-descricao {
-    background-color: rgb(172, 201, 209);   
     padding: 10px 15px;
     width: 80%;
+}
+
+.div-class-nome-indice {
+    /* border: 2px solid #000000; */
+    margin: 10px;
+}
+
+.div-class-img-descricao {
+    /* border: 2px solid #000000; */
+    display: flex; 
+    margin: 10px;
+    margin-left: 60px;
+    margin-top: 80px;
+    width: 90%;
+
+}
+
+.div-img {
+    background-color: rgb(210, 241, 234);
+    padding: 15px;
+    border-radius: 200px;
+}
+.div-h2-ul-indice {
+    /* border: 2px solid #000000; */
+    margin: 0;
+    padding: 10px;
+    border-radius: 0 50px 50px 50px;
+    position: absolute;
+    background-color: rgb(210, 241, 234);
+}
+.div-h2-ul-indice > h2 > ul > li {
+    display: flex;
+}
+.div-h2-ol-habilidades {
+    margin: 0;
+    padding: 10px;
+    border-radius: 0 50px 50px 50px;
+    position: absolute;
+    background-color: rgb(210, 241, 234);
+    
+}
+.div-class-descricao {
+    margin-top: 20px;
+    padding: 20px;
+}
+.habilidades {
+    padding: 100px;
+}
+.div-h2-blog {
+    position: absolute;
+    margin-bottom: 20px;
+    margin-left: 330px;
+    padding: 15px;
+    /* border: 2px solid #000000; */
+}
+.div-h2-blog > h2 {
+    padding: 15px;
 }
