@@ -2,7 +2,7 @@
     margin: 0;
 }
 body {
-    background-color: rgb(186, 220, 229);
+    background-image: linear-gradient(rgb(95, 218, 223), rgb(42, 125, 128)); ;
     padding: 20px 15px;
 }
 strong {
@@ -32,6 +32,7 @@ span:hover {
 }
 #h1-nome {
     font-family: Verdana;
+    font:caption;
     font-size: 36px;
     font-weight: 600;
     color: rgb(116, 69, 25);
@@ -119,7 +120,7 @@ span:hover {
     margin: 10px;
 }
 .div-class-img-habilidades {
-    background-color: rgb(210, 241, 234);
+    background-color: rgb(187, 243, 230);
     border-radius: 200px;
     padding: 18px;
     width: 250px;
