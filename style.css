@@ -20,8 +20,14 @@ span {
     font-weight: 600;
     font-size: larger;
     color: darkcyan;
+    margin-left: 20px;
+    display: inline-block;
 }
-#nome {
+/* ul {
+    margin-left: 20px;
+    display: inline-block;
+} */
+#h1-nome {
     font-family: Verdana;
     font-size: 36px;
     font-weight: 600;
@@ -33,11 +39,18 @@ span {
     font-weight: 400;
     text-align: justify;
     font-size: 14px;
+    margin: auto;
+    padding: 20px;
+    border: 5px dashed rgb(210, 241, 234);
 }
 #indice, #descricao, #habilidades, #blog {
     font-size: 24px;
     font-weight: 600;
+    display: inline-block;
     color: rgb(116, 69, 25);
+}
+.habilidades {
+    margin-bottom: 15px;
 }
 .li-1, .li-2, .li-3, .li-4, .li-5 {
     margin-left: 20px;
@@ -87,17 +100,16 @@ span {
     padding: 10px 15px;
     width: 80%;
 }
-.div-class-nome-indice {
-    /* border: 2px solid #000000; */
+.div-nome {
+    /* border: 1px solid #000000; */
     margin: 10px;
 }
-.div-class-img-descricao {
-    /* border: 2px solid #000000; */
-    display: flex; 
-    margin: 10px;
-    margin-left: 60px;
-    margin-top: 80px;
-    width: 90%;
+.div-class-img {
+    background-color: rgb(210, 241, 234);
+    border-radius: 200px;
+    padding: 18px;
+    width: 250px;
+    margin-left: 15px;
 
 }
 .div-img {
@@ -105,42 +117,39 @@ span {
     padding: 15px;
     border-radius: 200px;
 }
-.div-h2-ul-indice {
-    /* border: 2px solid #000000; */
-    margin: 0;
-    padding: 10px;
-    border-radius: 0 50px 50px 50px;
-    position: absolute;
-    background-color: rgb(210, 241, 234);
-}
-.div-h2-ul-indice > h2 > ul > li {
-    display: flex;
-}
-.div-h2-ol-habilidades {
-    margin: 0;
-    padding: 10px;
-    border-radius: 0 50px 50px 50px;
-    position: absolute;
-    background-color: rgb(210, 241, 234);
-    
-}
 .div-class-descricao {
-    margin-top: 20px;
-    padding: 20px;
-}
-.habilidades {
-    padding: 100px;
+    margin-left: 15px;
+    margin-top: 65px;
+
 }
 ol > li:nth-child(even) {
     text-transform: lowercase;
 }
-.div-h2-blog {
-    position: absolute;
-    margin-bottom: 20px;
-    margin-left: 330px;
-    padding: 15px;
-    /* border: 2px solid #000000; */
+.div-juncao, .div-indice-indice, .div-img-descricao , .div-blog {
+    margin-top: 5px;
+    padding: 10px;
+    display: inline-flex;
 }
-.div-h2-blog > h2 {
-    padding: 15px;
+
+.div-habilidades{
+    width: 170px;
+    border-radius: 50px 50px 50px 0;
+    margin: 10px 0 0 40px;
+    /* background-color: rgb(210, 241, 234); */
+    /* box-shadow: -1px 1px 1px 1px gray; */
+}
+.div-blog-habilidades {
+    margin-top: 20px;
+    /* border: 1px solid #000000; */
+}
+#blog {
+    margin-bottom: 20px;
+}
+.div-juncao-divs {
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+}
+#descricao {
+    margin: 10px;
 }
