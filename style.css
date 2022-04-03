@@ -19,14 +19,10 @@ ol {
 span {
     font-weight: 600;
     font-size: larger;
-    color: darkcyan;
+    color: #006868;
     margin-left: 20px;
     display: inline-block;
 }
-/* ul {
-    margin-left: 20px;
-    display: inline-block;
-} */
 #h1-nome {
     font-family: Verdana;
     font-size: 36px;
@@ -91,6 +87,7 @@ span {
     border-radius: 5px;
     text-decoration: none;
     font-family: monospace, sans-serif;
+    margin-left: 7px;
 }
 .img-foto{
     border-radius: 200px;
@@ -104,7 +101,7 @@ span {
     /* border: 1px solid #000000; */
     margin: 10px;
 }
-.div-class-img {
+.div-class-img-habilidades {
     background-color: rgb(210, 241, 234);
     border-radius: 200px;
     padding: 18px;
@@ -130,17 +127,13 @@ ol > li:nth-child(even) {
     padding: 10px;
     display: inline-flex;
 }
-
 .div-habilidades{
     width: 170px;
     border-radius: 50px 50px 50px 0;
     margin: 10px 0 0 40px;
-    /* background-color: rgb(210, 241, 234); */
-    /* box-shadow: -1px 1px 1px 1px gray; */
 }
-.div-blog-habilidades {
+.div-class-blog-afinados {
     margin-top: 20px;
-    /* border: 1px solid #000000; */
 }
 #blog {
     margin-bottom: 20px;
@@ -152,4 +145,9 @@ ol > li:nth-child(even) {
 }
 #descricao {
     margin: 10px;
+}
+.ul-blog {
+    padding: 5px;
+    list-style: none;
+    display: inline-flex;
 }
