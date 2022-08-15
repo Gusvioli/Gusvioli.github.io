@@ -2,3 +2,82 @@
   margin: 0;
   padding: 0;
 }
+
+.App {
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: flex-start;
+}
+
+.footer__align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-section {
+  display: flex;
+  flex-direction: row wrap;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.App-footer {
+  background-color: #222;
+  height: auto;
+  padding: 20px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-project {
+  width: 50px;
+  height: 50px;
+  background-color: #eee;
+  border-radius: 200px;
+  margin: 2px;
+  border: #222 solid 1px;
+}
+
+.App-central {
+  z-index: 2;
+  position: fixed;
+  top: 20%;
+  height: 40vh;
+  margin: 50px 0px;
+  border: 10px solid rgb(47, 53, 63);
+  box-shadow: 1px 1px 10px 10px rgba(3, 3, 3, 0.363);
+  padding: 15px;
+  width: 40vh;
+  border-radius: 300px;
+  background-image: url("../src/imgs/gusvioliFoto.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
