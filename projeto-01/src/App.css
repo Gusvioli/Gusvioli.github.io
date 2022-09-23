@@ -3,6 +3,29 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  padding: 2px;
+}
+
+.App-main-sobre-min {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 100px 0;
+  gap: 50px;
+  font-size: 26px;
+  text-align: justify;
+  color: #222;
+  background-color: azure;
+  padding: 50px;
+  border-radius: 10px;
+  border: 3px solid rgb(47, 53, 63);
+  box-shadow: 1px 1px 10px 10px rgba(3, 3, 3, 0.363);
+}
+
 .App {
    display: flex;
    flex-direction: column;
@@ -18,9 +41,11 @@
 
 .App-main {
   display: flex;
-  flex-direction: row wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 270px;
+  margin-bottom: 100px;
 }
 
 .App-section {
@@ -29,6 +54,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  width: 90%;
 }
 
 .App-header { 
@@ -40,6 +66,8 @@
   height: 100px;
   padding: 20px;
   color: white;
+  z-index: 2;
+  width: auto;
 }
 
 .App-footer {
@@ -48,8 +76,10 @@
   padding: 20px;
   color: white;
   position: fixed;
+  z-index: 1;
   width: 100%;
   bottom: 0;
+  height: 35px;
 }
 
 .App-title {
@@ -59,22 +89,90 @@
 .App-project {
   width: 50px;
   height: 50px;
-  background-color: #eee;
-  border-radius: 200px;
+  /* background-color: #eee; */
+  border-radius: 10px;
   margin: 2px;
   border: #222 solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0.5 3px 2px rgb(148, 148, 148);
+}
+
+.App-project:hover {
+  width: 50px;
+  height: 50px;
+  /* background-color: rgb(139, 88, 88); */
+  border-radius: 10px;
+  margin: 2px;
+  border: #222 solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: inset 0 0 5px 5px rgb(144, 144, 144); */
+}
+
+.menu-header {
+  display: flex;
+  flex-direction: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  color: rgb(47, 48, 48);
+  width: 40%;
+  /* border: 1px solid rgb(255, 246, 246); */
+}
+.menu-header-tecs {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  color: rgb(47, 48, 48);
+  width: 100%;
+}
+
+.menu-header-div-tecs-name {
+  padding: 5px;
+}
+
+span {
+  margin: 2px;
+}
+
+.menu-header-div {
+  align-items: flex-start;
+  margin: 5px;
+  border-radius: 10px;
+  border: #222 solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0.5 3px 2px rgb(148, 148, 148);
+  width: auto;
+}
+
+.menu-header-div-interno {
+  margin: 10;
+}
+
+.App-project-opacity {
+  opacity: 0.07;
+}
+
+.menu-header-div-tecs {
+  align-self: flex-end;
+  padding: 10px;
+  color: aliceblue;
+  margin-left: 300px;
 }
 
 .App-central {
-  z-index: 2;
-  position: fixed;
-  top: 20%;
-  height: 40vh;
-  margin: 50px 0px;
+  position: absolute;
+  margin-top: 400px;
+  height: 12em;
   border: 10px solid rgb(47, 53, 63);
   box-shadow: 1px 1px 10px 10px rgba(3, 3, 3, 0.363);
   padding: 15px;
-  width: 40vh;
+  width: 12em;
   border-radius: 300px;
   background-image: url("../src/imgs/gusvioliFoto.jpeg");
   background-size: cover;
