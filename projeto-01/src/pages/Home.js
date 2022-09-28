@@ -93,8 +93,8 @@ function Home() {
                     <span className='App-project-opacity'></span>
                     </div>) }
                 </section>
+                <h1 className='sobre-mim' id='sobremim'>Sobre Mim</h1>
                 <section className='App-main-sobre-min'>
-                  <div id='sobremim'>Sobre Mim:</div>
                   <div>{info.sobreMin}</div>
                 </section>
               </section>
