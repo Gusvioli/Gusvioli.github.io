@@ -1,0 +1,55 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    gap: 20px;
+    font-size: 22px;
+    text-align: justify;
+    color: #222;
+    background-color: rgb(44, 44, 44);
+    padding: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(44, 44, 44);
+    box-shadow: 1px 1px 5px 5px rgba(3, 3, 3, 0.363);
+}
+
+input {
+  padding: 10px;
+  font-size: 22px;
+  width: 80%;
+}
+
+textarea {
+  padding: 10px;
+  font-size: 22px;
+  width: 80%;
+  height: 200px;
+}
+
+.Form-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.Contato {
+  margin-top: 80px;
+}
+
+.enviado {
+  display: none;
+  width: 100%;
+  height: auto;
+  font-size: 26px;
+  background-color: rgb(131, 216, 51);
+  z-index: 1;
+  padding: 10px;
+}
+
+.visivel {
+  display: flex;
+}
