@@ -131,9 +131,11 @@ function Home() {
                         <div className='App-projects-conteudo-descricao'>
                           {ma.desc}
                         </div>
-                        <div className='App-projects-conteudo-link'>
-                          <a href={ma.link} alt={ma.nome}>Ver projeto {ma.nome}</a>
-                        </div>
+                        <a className='App-projects-conteudo-link' href={ma.link} alt={ma.nome}  target='_black'>
+                          <div>
+                            Ver projeto {ma.nome}
+                          </div>
+                        </a>
                       </div>
                     </div>) }
                 </section>
