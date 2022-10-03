@@ -30,11 +30,12 @@ h1 {
 main {
   /* margin-bottom: 120px; */
   width: 100%;
-  background-color: rgba(132, 121, 182, 0.664);
+  background-color: rgba(230, 227, 236, 0.993);
   height: 600px;
+  box-shadow: 1px 1px 1px 1px rgba(182, 182, 182, 0.568);
 }
 
-.App-main-sobre-min {
+.App-main-sobre-mim {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -44,11 +45,11 @@ main {
   font-size: 22px;
   text-align: justify;
   color: #222;
-  background-color: rgb(252, 252, 252);
+  background-color: rgba(132, 121, 182, 0.26);
   padding: 50px;
   border-radius: 10px;
   border: 2px solid rgb(47, 53, 63);
-  box-shadow: 1px 1px 5px 5px rgba(3, 3, 3, 0.363);
+  box-shadow: 1px 1px 3px 3px rgba(3, 3, 3, 0.363);
 }
 
 .margem-top {
@@ -184,18 +185,6 @@ main {
   justify-content: center;
   box-shadow: inset 0 0.5 3px 2px rgb(148, 148, 148);
 }
-
-/* .App-project:hover {
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
-  margin: 2px;
-  border: rgb(81, 148, 5) solid 2px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: inset 0 0.5 3px 2px rgb(81, 148, 5);
-} */
 
 .menu-header {
   position: fixed;

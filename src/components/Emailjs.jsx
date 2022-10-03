@@ -64,7 +64,7 @@ export const ContactUs = () => {
           placeholder='Mensagem'
           value={ forms.formContactMsg }
           onChange={ handleInput }  />
-        <input type="submit" value="Enviar" />
+        <input className='input-submit' type="submit" value="Enviar" />
       </form>
     </section>
     

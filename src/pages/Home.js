@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import Context from '../context/Context';
-import Emailjs from '../components/Emailjs'
+import Emailjs from '../components/Emailjs';
+// import ContadorVisitas from '../components/ContadorVisitas';
 import bgprojeto0 from '../imgs/bgprojeto0.png'; 
 import bgprojeto1 from '../imgs/bgprojeto1.png'; 
 
@@ -72,6 +73,7 @@ function Home() {
     return (
         <div className="App">
             <header className="App-header">
+              {/* <ContadorVisitas/> */}
               <section className='menu-header'>
                 <a href='https://github.com/Gusvioli' target='_black'>
                   <div className='menu-header-div' style={ handleRandDiv() }>
@@ -140,7 +142,7 @@ function Home() {
                     </div>) }
                 </section>
                 <h1 className='margem-top'>Sobre Mim</h1>
-                <section className='App-main-sobre-min'>
+                <section className='App-main-sobre-mim'>
                   <div>{info.sobreMin}</div>
                 </section>
               </section>
