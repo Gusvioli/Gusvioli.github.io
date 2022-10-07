@@ -34,6 +34,12 @@ function Provider({ children }) {
           desc: 'Projeto para visualizar todos os planetas do sistema e suas missões espaciais',
           link: 'https://gusvioli.github.io/solar-system',
         }
+        ,
+        {
+          nome: 'Pixel-Art',
+          desc: 'Projeto de uma página web que contém uma paleta de cores funcional que poderá ser utilizada para criar desenhos em pixels.',
+          link: 'https://gusvioli.github.io/pixel-art',
+        }
       ],
     });
 

@@ -4,6 +4,7 @@ import Emailjs from '../components/Emailjs';
 // import ContadorVisitas from '../components/ContadorVisitas';
 import bgprojeto0 from '../imgs/bgprojeto0.png'; 
 import bgprojeto1 from '../imgs/bgprojeto1.png'; 
+import bgprojeto2 from '../imgs/bgprojeto2.png'; 
 
 function Home() {
     const { info, setArray, rgb, setRgb } = useContext(Context);
@@ -75,6 +76,7 @@ function Home() {
             <header className="App-header">
               {/* <ContadorVisitas/> */}
               <section className='menu-header'>
+                <div className="App-central"></div> 
                 <a href='https://github.com/Gusvioli' target='_black'>
                   <div className='menu-header-div' style={ handleRandDiv() }>
                     <div className='menu-header-div-interno'>Github</div>
@@ -101,7 +103,6 @@ function Home() {
                   </div>
                 </a>
               </section>
-              <div className="App-central"></div> 
             </header>
             <main>
               <section className="App-main">
@@ -122,24 +123,72 @@ function Home() {
                 </section>
                 <h1 className='margem-top'>Projetos</h1>
                 <section className="App-section">
-                  { info.projetosSrc.map((ma, index) => <div className='App-project' style={ headerDiv() } key={index}>
+                  <div className='App-project' style={ headerDiv() }>
+
                     <div className='App-projects-conteudo'>
-                        <div style={ index === 0 ?
-                          handleProjetos(bgprojeto0) : handleProjetos(bgprojeto1)
-                          }></div>
-                        <div className='App-projects-conteudo-nome'>
-                            {ma.nome}
-                        </div>
-                        <div className='App-projects-conteudo-descricao'>
-                          {ma.desc}
-                        </div>
-                        <a className='App-projects-conteudo-link' href={ma.link} alt={ma.nome}  target='_black'>
-                          <div>
-                            Ver projeto {ma.nome}
-                          </div>
-                        </a>
+                      <div style={ handleProjetos(bgprojeto0) }></div>
+                      <div className='App-projects-conteudo-nome'>
+                          {info.projetosSrc[0].nome}
                       </div>
-                    </div>) }
+                      <div className='App-projects-conteudo-descricao'>
+                        {info.projetosSrc[0].desc}
+                      </div>
+                      <a 
+                        className='App-projects-conteudo-link'
+                        href={info.projetosSrc[0].link}
+                        alt={info.projetosSrc[0].nome}
+                        target='_black'
+                      >
+                        <div>
+                          Ver projeto {info.projetosSrc[0].nome}
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div className='App-project' style={ headerDiv() }>
+                    <div className='App-projects-conteudo'>
+                      <div style={ handleProjetos(bgprojeto1) }></div>
+                      <div className='App-projects-conteudo-nome'>
+                          {info.projetosSrc[1].nome}
+                      </div>
+                      <div className='App-projects-conteudo-descricao'>
+                        {info.projetosSrc[1].desc}
+                      </div>
+                      <a 
+                        className='App-projects-conteudo-link'
+                        href={info.projetosSrc[1].link}
+                        alt={info.projetosSrc[1].nome}
+                        target='_black'
+                      >
+                        <div>
+                          Ver projeto {info.projetosSrc[1].nome}
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div className='App-project' style={ headerDiv() }>
+
+                    <div className='App-projects-conteudo'>
+                      <div style={ handleProjetos(bgprojeto2) }></div>
+                      <div className='App-projects-conteudo-nome'>
+                          {info.projetosSrc[2].nome}
+                      </div>
+                      <div className='App-projects-conteudo-descricao'>
+                        {info.projetosSrc[2].desc}
+                      </div>
+                      <a 
+                        className='App-projects-conteudo-link'
+                        href={info.projetosSrc[2].link}
+                        alt={info.projetosSrc[2].nome}
+                        target='_black'
+                      >
+                        <div>
+                          Ver projeto {info.projetosSrc[2].nome}
+                        </div>
+                      </a>
+                    </div>
+
+                  </div>
                 </section>
                 <h1 className='margem-top'>Sobre Mim</h1>
                 <section className='App-main-sobre-mim'>

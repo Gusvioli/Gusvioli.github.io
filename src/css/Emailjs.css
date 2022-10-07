@@ -2,7 +2,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     width: 70%;
     gap: 20px;
     font-size: 22px;
@@ -14,17 +14,17 @@ form {
     border: 2px solid rgb(44, 44, 44);
     box-shadow: 1px 1px 5px 5px rgba(3, 3, 3, 0.363);
     margin-bottom: 120px;
-    background-image: url('../imgs/arroba.png');
+    /* background-image: url('../imgs/arroba.png');
     background-size: 770px;
     background-repeat: no-repeat;
-    background-position: 700px;
+    background-position: 700px; */
 }
 
 
 input {
   padding: 10px;
   font-size: 22px;
-  width: 58%;
+  width: 88%;
 }
 
 .input-submit {
@@ -34,7 +34,7 @@ input {
 textarea {
   padding: 10px;
   font-size: 22px;
-  width: 58%;
+  width: 88%;
   height: 200px;
 }
 
