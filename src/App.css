@@ -6,7 +6,7 @@
 a {
   text-decoration: none;
   padding: 2px;
-  color: aliceblue;
+  color: rgb(252, 252, 252);
 }
 
 a:hover {
@@ -18,7 +18,7 @@ a:hover {
 a:visited {
   text-decoration: none;
   padding: 2px;
-  color: rgb(156, 173, 189);
+  color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -31,7 +31,7 @@ main {
   /* margin-bottom: 120px; */
   width: 100%;
   background-color: rgba(230, 227, 236, 0.993);
-  height: 600px;
+  height: 700px;
   box-shadow: 1px 1px 1px 1px rgba(182, 182, 182, 0.568);
 }
 
@@ -58,15 +58,9 @@ main {
 
 .App {
    display: flex;
-   flex-direction: column;
+   flex-direction: column wrap;
    align-items: stretch;
-   justify-content: center;
-}
-
-.footer__align {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+   justify-content: space-between;
 }
 
 .App-main {
@@ -74,7 +68,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 220px;
+  margin-top: 120px;
   width: 100%;
 }
 
@@ -91,15 +85,9 @@ main {
 .App-header { 
   position: fixed;
   top: 0;
-  display: flex;
-  flex-direction: row wrap;
-  align-items: center;
-  justify-content: center;
   background-color: #222;
-  height: 80px;
-  padding: 20px;
+  height: auto;
   color: white;
-  z-index: 2;
   width: 100%;
 }
 
@@ -144,7 +132,7 @@ main {
   background-color: #222;
   margin: 5px;
   font-size: 23px;
-  color: #222;
+  color: rgb(255, 255, 255);
 }
 
 .App-projects-conteudo-link:hover {
@@ -158,16 +146,22 @@ main {
   color: #222;
 }
 
-.App-footer {
+footer {
   background-color: #222;
   height: auto;
-  padding: 20px;
+  padding: 10px;
   color: white;
   position: fixed;
-  z-index: 1;
-  width: 100%;
   bottom: 0;
-  height: 35px;
+  width: 100%;
+}
+
+.App-footer {
+  display: flex;
+  flex-direction: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .App-title {
@@ -188,25 +182,33 @@ main {
 }
 
 .menu-header {
-  position: fixed;
   display: flex;
   flex-direction: column wrap;
   justify-content: center;
   align-items: center;
   color: rgb(47, 48, 48);
-  width: 60%;
-  /* border: 1px solid rgb(255, 246, 246); */
+  width: 100%;
+  height: auto;
+  padding: 5px;
 }
 
 .menu-header-tecs {
   display: flex;
-  flex-direction: row wrap;
-  justify-content: center;
+  flex-direction: column wrap;
+  justify-content: space-between;
   align-items: center;
   color: rgb(47, 48, 48);
-  padding-bottom: 80px;
+  margin: 8px;
   /* border: 1px solid #222; */
 }
+
+/* .menu-header-tecs-div {
+  display: flex;
+  flex-direction: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+} */
 
 .menu-header-div-tecs-name {
   padding: 45px 5px;
@@ -258,14 +260,11 @@ span {
 }
 
 .App-central {
-  position: fixed;
-  top: 20px;
-  left: 100px;
-  height: 14em;
+  height: 12em;
   border: 10px solid rgb(47, 53, 63);
   box-shadow: 1px 1px 10px 10px rgba(3, 3, 3, 0.363);
   padding: 15px;
-  width: 14em;
+  width: 12em;
   border-radius: 300px;
   background-image: url("../src/imgs/gusvioliFoto.jpeg");
   background-size: cover;
@@ -273,142 +272,4 @@ span {
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 1400px) {
-  .App-central {
-    position: fixed;
-    top: 40px;
-    left: 40px;
-    height: 10em;
-    border: 10px solid rgb(47, 53, 63);
-    box-shadow: 1px 1px 10px 10px rgba(3, 3, 3, 0.363);
-    padding: 15px;
-    width: 10em;
-    border-radius: 300px;
-    background-image: url("../src/imgs/gusvioliFoto.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-}
 
-@media only screen and (min-width: 1030px) and (max-width: 1200px){
-  .menu-header-tecs {
-    display: flex;
-    flex-direction: row wrap;
-    justify-content: center;
-    align-items: center;
-    color: rgb(47, 48, 48);
-    padding-bottom: 80px;
-    padding: 30px;
-    /* border: 1px solid #222; */
-  }
-
-  .App-header { 
-    /* position: fixed; */
-    /* top: 0; */
-    display: flex;
-    flex-direction: column wrap;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #222;
-    height: 20%;
-    padding: 20px;
-    color: white;
-    /* z-index: 2; */
-    width: 100%;
-  }
-
-  .menu-header {
-    color: rgb(47, 48, 48);
-    width: auto;
-  }
-  .menu-header-div {
-    align-items: flex-start;
-    margin: 5px;
-    border-radius: 10px;
-    border: #222 solid 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: inset 0 0.5 3px 2px rgb(148, 148, 148);
-    width: 100%;
-    color: aliceblue;
-  }
-
-  .App-central {
-    position: relative;
-    top: 0;
-    left: 0;
-    margin: 10px;
-    height: 10em;
-    border: 10px solid rgb(47, 53, 63);
-    box-shadow: 1px 1px 10px 10px rgba(3, 3, 3, 0.363);
-    padding: 15px;
-    width: 10em;
-    border-radius: 300px;
-    background-image: url("../src/imgs/gusvioliFoto.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 1029px){
-  .menu-header-tecs {
-    display: flex;
-    flex-direction: row wrap;
-    justify-content: center;
-    align-items: center;
-    color: rgb(47, 48, 48);
-    padding-bottom: 80px;
-    padding: 30px;
-    /* border: 1px solid #222; */
-  }
-
-  .App-header { 
-    display: flex;
-    flex-direction: row wrap;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #222;
-    height: 20%;
-    /* padding: 20px; */
-    color: white;
-    width: 96%;
-  }
-
-  .menu-header {
-    color: rgb(47, 48, 48);
-    width: 96%;
-  }
-
-  .menu-header-div {
-    align-items: flex-start;
-    margin: 5px;
-    border-radius: 10px;
-    border: #222 solid 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: inset 0 0.5 3px 2px rgb(148, 148, 148);
-    width: 100%;
-    color: aliceblue;
-  }
-
-  .App-central {
-    position: relative;
-    top: 0;
-    left: 0;
-    margin: 10px;
-    height: 8em;
-    border: 10px solid rgb(47, 53, 63);
-    box-shadow: 1px 1px 10px 10px rgba(3, 3, 3, 0.363);
-    padding: 15px;
-    width: 8em;
-    border-radius: 300px;
-    background-image: url("../src/imgs/gusvioliFoto.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-}

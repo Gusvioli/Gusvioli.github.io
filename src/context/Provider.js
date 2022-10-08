@@ -4,7 +4,8 @@ import Context from "./Context";
 function Provider({ children }) {
   const [info, setInfo] = useState({
       title: 'Bem vindo ao meu Portfólio',
-      description: '2022 - Gustavo Vieira - Portfólio - tecnologias usadas nesse site:',
+      description: '2022 - Gustavo Vieira - Portfólio',
+      tecsUsadas: 'Tecnologias usadas nesse site:',
       nome: 'Gustavo Vieira',
       projetos: ['1'],
       srcTec: [
@@ -33,8 +34,7 @@ function Provider({ children }) {
           nome: 'Solar-system',
           desc: 'Projeto para visualizar todos os planetas do sistema e suas missões espaciais',
           link: 'https://gusvioli.github.io/solar-system',
-        }
-        ,
+        },
         {
           nome: 'Pixel-Art',
           desc: 'Projeto de uma página web que contém uma paleta de cores funcional que poderá ser utilizada para criar desenhos em pixels.',
@@ -46,7 +46,8 @@ function Provider({ children }) {
     const [forms, setForms] = useState({
       formContactName: '',
       formContactEmail: '',
-      formContactMsg: ''
+      formContactMsg: '',
+      send: 0,
     });
     
   const [array, setArray] = useState([]);

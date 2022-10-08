@@ -76,7 +76,6 @@ function Home() {
             <header className="App-header">
               {/* <ContadorVisitas/> */}
               <section className='menu-header'>
-                <div className="App-central"></div> 
                 <a href='https://github.com/Gusvioli' target='_black'>
                   <div className='menu-header-div' style={ handleRandDiv() }>
                     <div className='menu-header-div-interno'>Github</div>
@@ -84,7 +83,7 @@ function Home() {
                 </a>
                 <a href='https://www.linkedin.com/in/gustavovieiradeoliveira/' target='_black'>
                   <div className='menu-header-div' style={ handleRandDiv() }>
-                    <div className='menu-header-div-interno'>Linkdin</div>
+                    <div className='menu-header-div-interno'>Linkedin</div>
                   </div>
                 </a>
                 <a href='#sobremim' onClick={ handleIr }>
@@ -106,9 +105,10 @@ function Home() {
             </header>
             <main>
               <section className="App-main">
+                <div className="App-central"></div> 
                 <h1 className='margem-top'>Habilidades</h1>
                 <section className='menu-header-tecs'>
-                  <div>
+                  <div className='menu-header-tecs-div'>
                     { info.srcTec.map((ma, index) => 
                     <span key={index} >
                       <a target="_blank" rel="noopener noreferrer nofollow" href={ma}>
@@ -138,10 +138,7 @@ function Home() {
                         href={info.projetosSrc[0].link}
                         alt={info.projetosSrc[0].nome}
                         target='_black'
-                      >
-                        <div>
-                          Ver projeto {info.projetosSrc[0].nome}
-                        </div>
+                      > Ver projeto {info.projetosSrc[0].nome}
                       </a>
                     </div>
                   </div>
@@ -159,10 +156,7 @@ function Home() {
                         href={info.projetosSrc[1].link}
                         alt={info.projetosSrc[1].nome}
                         target='_black'
-                      >
-                        <div>
-                          Ver projeto {info.projetosSrc[1].nome}
-                        </div>
+                      > Ver projeto {info.projetosSrc[1].nome}
                       </a>
                     </div>
                   </div>
@@ -197,23 +191,21 @@ function Home() {
               </section>
               <Emailjs/>
             </main>
-            <footer className="App-footer">
-                <div>
-                  <span className="footer__align">
-                    {info.description}
+            <footer>
+              <div className="App-footer">
+                {info.description} - {info.tecsUsadas}                
                     {
                       info.usoSite.map((element, index) => 
                         <a key={index} target="_blank" rel="noopener noreferrer nofollow" href={info.srcTec[element]}>
-                          <img height="30px"
+                          <img height="25px"
                             src={info.srcTec[element]}
                             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
                             alt='' />
                         </a>
                       )
                     }
-                    
-                  </span>
-                </div>
+              </div>
+                
             </footer>
         </div>
     );
