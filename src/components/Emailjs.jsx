@@ -1,4 +1,5 @@
-import React, { useRef, useContext, useEffect } from 'react';
+import React, { useRef, useContext } from 'react';
+import { FaPaperPlane } from "react-icons/fa";
 import Context from '../context/Context';
 import emailjs from '@emailjs/browser';
 import '../css/Emailjs.css';
@@ -66,7 +67,7 @@ export const ContactUs = () => {
 
   return (
     <section className="Form-main">
-      <h1 className='Contato'>Contato</h1>
+      <h1 id='contato' className='Contato'><span><FaPaperPlane /></span>Contato</h1>
       <div style={ msgCss() }>{ msgEnviada() }</div>
       <form ref={form} onSubmit={sendEmail}>
         <input
