@@ -108,18 +108,14 @@ function Home() {
                 <div className="App-central"></div> 
                 <h1 className='margem-top'>Habilidades</h1>
                 <section className='menu-header-tecs'>
-                  <div className='menu-header-tecs-div'>
                     { info.srcTec.map((ma, index) => 
                     <span key={index} >
-                      <a target="_blank" rel="noopener noreferrer nofollow" href={ma}>
                         <img height="70px"
                           src={ma}
                           data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
                           alt='' />
-                      </a>
                     </span>
                     ) }
-                  </div>
                 </section>
                 <h1 className='margem-top'>Projetos</h1>
                 <section className="App-section">
@@ -193,17 +189,18 @@ function Home() {
             </main>
             <footer>
               <div className="App-footer">
-                {info.description} - {info.tecsUsadas}                
+                 <div className='App-footer-info-desc'>{info.description}</div>
+                 <div className='App-footer-info-tecsUs'>{info.tecsUsadas}</div>  
+                 <div className='App-footer-info-usoSite'>         
                     {
                       info.usoSite.map((element, index) => 
-                        <a key={index} target="_blank" rel="noopener noreferrer nofollow" href={info.srcTec[element]}>
-                          <img height="25px"
-                            src={info.srcTec[element]}
-                            data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
-                            alt='' />
-                        </a>
+                        <img key={index} height="25px"
+                          src={info.srcTec[element]}
+                          data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
+                          alt='' />
                       )
                     }
+                  </div>  
               </div>
                 
             </footer>

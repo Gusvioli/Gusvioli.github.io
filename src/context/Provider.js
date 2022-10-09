@@ -4,7 +4,7 @@ import Context from "./Context";
 function Provider({ children }) {
   const [info, setInfo] = useState({
       title: 'Bem vindo ao meu Portfólio',
-      description: '2022 - Gustavo Vieira - Portfólio',
+      description: '2022 - Portfólio de Gustavo Vieira',
       tecsUsadas: 'Tecnologias usadas nesse site:',
       nome: 'Gustavo Vieira',
       projetos: ['1'],

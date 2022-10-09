@@ -183,7 +183,8 @@ footer {
 
 .menu-header {
   display: flex;
-  flex-direction: column wrap;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   color: rgb(47, 48, 48);
@@ -194,21 +195,14 @@ footer {
 
 .menu-header-tecs {
   display: flex;
-  flex-direction: column wrap;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   color: rgb(47, 48, 48);
   margin: 8px;
   /* border: 1px solid #222; */
 }
-
-/* .menu-header-tecs-div {
-  display: flex;
-  flex-direction: row wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-} */
 
 .menu-header-div-tecs-name {
   padding: 45px 5px;
@@ -272,4 +266,64 @@ span {
   background-repeat: no-repeat;
 }
 
+.App-footer-info-desc {
+  padding: 5px;
+}
+.App-footer-info-tecsUs {
+  padding: 5px 7px;
+}
+.App-footer-info-usoSite {
+  padding: 5px;
+}
 
+@media only screen and (max-width: 1060px) {
+  .menu-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-header-div {
+    width: 100%;
+    height: 10px;
+    padding: 10px;
+  }
+
+  .App-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    width: 100%;
+  }
+
+  main {
+    /* margin-bottom: 120px; */
+    width: 100%;
+    background-color: rgba(230, 227, 236, 0.993);
+    height: 950px;
+    box-shadow: 1px 1px 1px 1px rgba(182, 182, 182, 0.568);
+  }
+
+
+footer {
+  background-color: #222;
+  height: auto;
+  padding: 10px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.App-footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+}
