@@ -50,7 +50,7 @@ function Home() {
       if (projetos.length > 0) {
         const randDiv = {
           width: 440,
-          height: 390,
+          height: 540,
           backgroundColor: `rgb(${[80,80,120]})`,
         };
         return randDiv;
@@ -130,9 +130,11 @@ function Home() {
                     <div className='App-projects-conteudo'>
                       <div style={ handleProjetos(bgprojeto0) }></div>
                       <div className='App-projects-conteudo-nome'>
+                        <div className='msg_info_campos'>Nome do projeto:</div>
                           {info.projetosSrc[0].nome}
                       </div>
                       <div className='App-projects-conteudo-descricao'>
+                        <div className='msg_info_campos'>Descrição do projeto:</div>
                         {info.projetosSrc[0].desc}
                       </div>
                       <a 
@@ -148,9 +150,11 @@ function Home() {
                     <div className='App-projects-conteudo'>
                       <div style={ handleProjetos(bgprojeto1) }></div>
                       <div className='App-projects-conteudo-nome'>
+                        <div className='msg_info_campos'>Nome do projeto:</div>
                           {info.projetosSrc[1].nome}
                       </div>
                       <div className='App-projects-conteudo-descricao'>
+                        <div className='msg_info_campos'>Descrição do projeto:</div>
                         {info.projetosSrc[1].desc}
                       </div>
                       <a 
@@ -167,9 +171,11 @@ function Home() {
                     <div className='App-projects-conteudo'>
                       <div style={ handleProjetos(bgprojeto2) }></div>
                       <div className='App-projects-conteudo-nome'>
+                        <div className='msg_info_campos'>Nome do projeto:</div>
                           {info.projetosSrc[2].nome}
                       </div>
                       <div className='App-projects-conteudo-descricao'>
+                        <div className='msg_info_campos'>Descrição do projeto:</div>
                         {info.projetosSrc[2].desc}
                       </div>
                       <a 

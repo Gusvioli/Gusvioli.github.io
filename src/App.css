@@ -106,7 +106,7 @@ main {
 
 .App-projects-conteudo-descricao {
   width: 96%;
-  height: 50px;
+  height: auto;
   padding: 15px;
   background-color: #222;
   margin: 5px;
@@ -117,12 +117,12 @@ main {
 
 .App-projects-conteudo-nome {
   width: 96%;
-  height: 10px;
+  height: auto;
   padding: 15px;
   padding-bottom: 28px;
   background-color: #222;
   margin: 5px;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .App-projects-conteudo-link {
@@ -132,7 +132,7 @@ main {
   padding-bottom: 29px;
   background-color: #222;
   margin: 5px;
-  font-size: 23px;
+  font-size: 20px;
   color: rgb(255, 255, 255);
 }
 
@@ -143,7 +143,7 @@ main {
   padding-bottom: 29px;
   background-color: rgb(132, 121, 182);
   margin: 5px;
-  font-size: 23px;
+  font-size: 20px;
   color: #222;
 }
 
@@ -240,8 +240,14 @@ span {
 }
 
 .menu-header-div-interno {
-  margin: 10;
+  margin: 10px;
   margin-left: 5px;
+}
+
+.msg_info_campos {
+  font-size: 10px;
+  padding: 3px;
+  color: rgb(255, 255, 255);
 }
 
 .App-project-opacity {
@@ -331,5 +337,32 @@ footer {
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+.margem-top {
+  margin-top: 60px;
+  font-size: 26px;
+}
+
+.Contato {
+  margin-top: 50px;
+  font-size: 26px;
+}
+
+.App-main-sobre-mim {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  gap: 50px;
+  font-size: 20px;
+  text-align: justify;
+  color: #222;
+  background-color: rgba(132, 121, 182, 0.26);
+  padding: 50px;
+  border-radius: 10px;
+  border: 2px solid rgb(47, 53, 63);
+  box-shadow: 1px 1px 3px 3px rgba(3, 3, 3, 0.363);
 }
 }
