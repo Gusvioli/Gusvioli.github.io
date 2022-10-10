@@ -13,7 +13,7 @@ form {
     border-radius: 10px;
     border: 2px solid rgb(44, 44, 44);
     box-shadow: 1px 1px 5px 5px rgba(3, 3, 3, 0.363);
-    margin-bottom: 120px;
+    margin-bottom: 150px;
     /* background-image: url('../imgs/arroba.png');
     background-size: 770px;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ textarea {
 }
 
 .Contato {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .enviado {

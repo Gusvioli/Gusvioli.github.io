@@ -12,7 +12,7 @@ function Home() {
 
     const handleRandDiv = () => {
       const randDiv = {
-        width: 100,
+        width: 'auto',
         height: 10,
         padding: 10,
         backgroundColor: `rgb(${[80,80,120]})`,
@@ -79,32 +79,32 @@ function Home() {
               <section className='menu-header'>
                 <a href='https://github.com/Gusvioli' target='_black'>
                   <div className='menu-header-div' style={ handleRandDiv() }>
-                    <span><FaGithub /></span>
+                    <FaGithub />
                     <div className='menu-header-div-interno' data-testid='Github'> Github</div>
                   </div>
                 </a>
                 <a href='https://www.linkedin.com/in/gustavovieiradeoliveira/' target='_black'>
                   <div className='menu-header-div' style={ handleRandDiv() }>
-                    <span><FaLinkedin /></span>
-                    <div className='menu-header-div-interno' data-testid='Linkedin'>Linkedin</div>
+                    <FaLinkedin />
+                    <div className='menu-header-div-interno' data-testid='Linkedin'> Linkedin</div>
                   </div>
                 </a>
                 <a href='#sobremim' onClick={ handleIr }>
                   <div className='menu-header-div' style={ handleRandDiv() }>
-                    <span><FaAddressCard /></span>
-                    <div className='menu-header-div-interno' id="sobreMim" data-testid='SobreMim'>Sobre mim</div>
+                    <FaAddressCard />
+                    <div className='menu-header-div-interno' id="sobreMim" data-testid='SobreMim'> Sobre mim</div>
                   </div>
                 </a>
                 <a href='#habilidades' onClick={ handleIr }>
                   <div className='menu-header-div' style={ handleRandDiv() }>
-                    <span><FaUserGraduate /></span>
-                    <div className='menu-header-div-interno' id="habilidades" data-testid='Habilidades'>Habilidades</div>
+                    <FaUserGraduate />
+                    <div className='menu-header-div-interno' id="habilidades" data-testid='Habilidades'> Habilidades</div>
                   </div>
                 </a>
                 <a href='#contato' onClick={ handleIr }>
                   <div className='menu-header-div' style={ handleRandDiv() }>
-                    <span><FaPaperPlane /></span>
-                    <div className='menu-header-div-interno' id="contatos" data-testid='Contato'>Contato</div>
+                    <FaPaperPlane />
+                    <div className='menu-header-div-interno' id="contatos" data-testid='Contato'> Contato</div>
                   </div>
                 </a>
               </section>
@@ -112,7 +112,7 @@ function Home() {
             <main>
               <section className="App-main">
                 <div className="App-central"></div> 
-                <h1 id='habilidades' className='margem-top'><span><FaUserGraduate /></span>Habilidades</h1>
+                <h1 id='habilidades' className='margem-top'><FaUserGraduate /> Habilidades</h1>
                 <section className='menu-header-tecs'>
                     { info.srcTec.map((ma, index) => 
                     <span key={index} >
@@ -123,7 +123,7 @@ function Home() {
                     </span>
                     ) }
                 </section>
-                <h1 className='margem-top'><span><FaMedal /></span>Projetos</h1>
+                <h1 className='margem-top'><FaMedal /> Projetos</h1>
                 <section className="App-section">
                   <div className='App-project' style={ headerDiv() }>
 
@@ -186,7 +186,7 @@ function Home() {
 
                   </div>
                 </section>
-                <h1 id='sobremim' className='margem-top'><span><FaAddressCard /></span>Sobre Mim</h1>
+                <h1 id='sobremim' className='margem-top'><FaAddressCard /> Sobre Mim</h1>
                 <section className='App-main-sobre-mim'>
                   <div>{info.sobreMin}</div>
                 </section>
