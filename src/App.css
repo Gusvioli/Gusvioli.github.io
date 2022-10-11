@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  /* box-sizing: border-box; */
 }
 
 a {
@@ -58,10 +59,10 @@ main {
 }
 
 .App {
-   display: flex;
-   flex-direction: column wrap;
-   align-items: stretch;
-   justify-content: space-between;
+  display: flex;
+  flex-direction: column wrap;
+  align-items: stretch;
+  justify-content: space-between;
 }
 
 .App-main {
@@ -83,7 +84,7 @@ main {
   margin-bottom: 50px;
 }
 
-.App-header { 
+.App-header {
   position: fixed;
   top: 0;
   background-color: #222;
@@ -112,7 +113,7 @@ main {
   margin: 5px;
   word-break: break-all;
   font-size: 14px;
-  
+
 }
 
 .App-projects-conteudo-nome {
@@ -277,9 +278,11 @@ span {
 .App-footer-info-desc {
   padding: 5px;
 }
+
 .App-footer-info-tecsUs {
   padding: 5px 7px;
 }
+
 .App-footer-info-usoSite {
   padding: 5px;
 }
@@ -320,49 +323,49 @@ span {
   }
 
 
-footer {
-  background-color: #222;
-  height: auto;
-  padding: 10px;
-  color: white;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+  footer {
+    background-color: #222;
+    height: auto;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
 
-.App-footer {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column wrap;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
+  .App-footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 
-.margem-top {
-  margin-top: 60px;
-  font-size: 26px;
-}
+  .margem-top {
+    margin-top: 60px;
+    font-size: 26px;
+  }
 
-.Contato {
-  margin-top: 50px;
-  font-size: 26px;
-}
+  .Contato {
+    margin-top: 50px;
+    font-size: 26px;
+  }
 
-.App-main-sobre-mim {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 65%;
-  gap: 50px;
-  font-size: 20px;
-  text-align: justify;
-  color: #222;
-  background-color: rgba(132, 121, 182, 0.26);
-  padding: 50px;
-  border-radius: 10px;
-  border: 2px solid rgb(47, 53, 63);
-  box-shadow: 1px 1px 3px 3px rgba(3, 3, 3, 0.363);
-}
+  .App-main-sobre-mim {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    gap: 50px;
+    font-size: 20px;
+    text-align: justify;
+    color: #222;
+    background-color: rgba(132, 121, 182, 0.26);
+    padding: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(47, 53, 63);
+    box-shadow: 1px 1px 3px 3px rgba(3, 3, 3, 0.363);
+  }
 }

@@ -54,7 +54,14 @@ function Provider({ children }) {
   const [rgb, setRgb] = useState([205,205,205]);
 
   return (
-    <Context.Provider value={ { info, array, setArray, setInfo, rgb, setRgb, forms, setForms } }>
+    <Context.Provider value={ { info,
+    array,
+    setArray,
+    setInfo,
+    rgb,
+    setRgb,
+    forms,
+    setForms } }>
       {children}
     </Context.Provider>
   );
