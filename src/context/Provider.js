@@ -23,7 +23,9 @@ function Provider({ children }) {
         'https://www.vectorlogo.zone/logos/mysql/mysql-official.svg',
       ],
       usoSite: [3, 7, 8, 9, 2],
-      sobreMin: 'Sou Gustavo Vieira, nasci no Rio de Janeiro - RJ vivo no bairro da Ilha do Governador, aos 16 anos descobri um forte interesse por computadores e programação, tenho curiosidade em saber como funciona as coisas, nessa idade comecei aprender HTML estudei por um ano, depois me interessei por CSS e PHP desde então vivo aprendendo linguagens de programação e tudo o que puder sobre computadores, luto pra alcançar meus objetivos; tenho conhecimento em Python, PHP, HTML5, CSS, JAVASCRIPT, REACT, JEST, RTL, GITHUB, NODE JS, REDUX, DOCKER , SQL e Metodologias Ágeis',
+      msgGus: 'Oi eu sou o Gustavo, seja bem vindo(a) ao meu Portfólio!', 
+      classMsgGus: 'MsgGusNone',
+      sobreMin: 'Meu nome é Gustavo Vieira e nasci no Rio de Janeiro. Vivo no bairro da Ilha do Governador e, quando tinha 16 anos, descobri um forte interesse por computadores e programação. Tenho curiosidade em saber como funcionam as coisas e, por isso, comecei a aprender HTML. Estudei por um ano e, depois, me interessei por CSS e PHP. Desde então, vivo aprendendo novas linguagens de programação e tudo o que puder sobre computadores. Luto para alcançar meus objetivos e, atualmente, tenho conhecimento em Python, PHP, HTML5, CSS, JAVASCRIPT, REACT, JEST, RTL, GITHUB, NODE JS, REDUX, DOCKER, SQL e Metodologias Ágeis. Meu objetivo é me tornar um desenvolvedor FullStack e ter um bom emprego na área de TI.', 
       projetosSrc: [
         {
           nome: 'Tryunfo',

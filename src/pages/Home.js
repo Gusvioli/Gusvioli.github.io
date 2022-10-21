@@ -7,7 +7,7 @@ import bgprojeto1 from '../imgs/bgprojeto1.png';
 import bgprojeto2 from '../imgs/bgprojeto2.png';
 
 function Home() {
-  const { info, setArray, rgb, setRgb } = useContext(Context);
+  const { info, setArray, rgb, setRgb, setInfo } = useContext(Context);
 
   const handleRandDiv = () => {
     const randDiv = {
@@ -63,6 +63,14 @@ function Home() {
     }
   };
 
+  const MsgDoGustavo = (e) => {
+    if (e.target.id === 'fotoGustavo') {
+      setInfo({ ...info, classMsgGus: 'MsgGus' });
+    } else {
+      setInfo({ ...info, classMsgGus: 'MsgGusNone' });
+    }
+  };
+
 
   useEffect(() => {
     const array = [];
@@ -107,9 +115,10 @@ function Home() {
           </a>
         </section>
       </header>
-      <main>
+      <main onMouseOver={MsgDoGustavo}>
         <section className="App-main">
-          <div className="App-central"></div>
+          <div className="App-central" id='fotoGustavo'></div>
+          <div className={info.classMsgGus}>{info.msgGus}</div>
           <h1 id='habilidades' className='margem-top'><FaUserGraduate /> Habilidades</h1>
           <section className='menu-header-tecs'>
             {info.srcTec.map((ma, index) =>

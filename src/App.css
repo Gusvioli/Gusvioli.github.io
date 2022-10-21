@@ -37,6 +37,19 @@ main {
   box-shadow: 1px 1px 1px 1px rgba(182, 182, 182, 0.568);
 }
 
+.MsgGusNone {
+  display: none;
+}
+
+.MsgGus {
+  position: absolute;
+  /* top: 0; */
+  bottom: 240px;
+  width: auto;
+  padding: 15px;
+  font-size: 24px;
+}
+
 .App-main-sobre-mim {
   display: flex;
   flex-direction: column;
@@ -367,5 +380,16 @@ span {
     border-radius: 10px;
     border: 2px solid rgb(47, 53, 63);
     box-shadow: 1px 1px 3px 3px rgba(3, 3, 3, 0.363);
+  }
+
+  .MsgGus {
+    display: flex;
+    position: absolute;
+    bottom: 145px;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 20px;
+    font-size: 21px;
   }
 }
