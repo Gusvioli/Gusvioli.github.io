@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from 'react';
-import { FaLink, FaGithub, FaLinkedin, FaAddressCard, FaUserGraduate, FaPaperPlane, FaMedal } from "react-icons/fa";
+import { FaLink, FaGithub, FaLinkedin, FaAddressCard, FaUserGraduate, FaPaperPlane, FaMedal, FaFolderOpen } from "react-icons/fa";
 import Context from '../context/Context';
 import Emailjs from '../components/Emailjs';
 import bgprojeto0 from '../imgs/bgprojeto0.png';
@@ -7,7 +7,7 @@ import bgprojeto1 from '../imgs/bgprojeto1.png';
 import bgprojeto2 from '../imgs/bgprojeto2.png';
 
 function Home() {
-  const { info, setArray, rgb, setRgb, setInfo } = useContext(Context);
+  const { info, setArray, rgb, setRgb } = useContext(Context);
 
   const handleRandDiv = () => {
     const randDiv = {
@@ -32,17 +32,17 @@ function Home() {
     return randProjetos;
   }
 
-  const handleIr = (event) => {
-    if (event.target.id === 'sobreMim') {
-      window.scroll(0, 950);
-    }
-    if (event.target.id === 'habilidades') {
-      window.scroll(0, 10);
-    }
-    if (event.target.id === 'contatos') {
-      window.scroll(0, 2000);
-    }
-  }
+  // const handleIr = (event) => {
+  //   if (event.target.id === 'sobreMim') {
+  //     window.scroll(0, 950);
+  //   }
+  //   if (event.target.id === 'habilidades') {
+  //     window.scroll(0, 10);
+  //   }
+  //   if (event.target.id === 'contatos') {
+  //     window.scroll(0, 2000);
+  //   }
+  // }
 
   const headerDiv = () => {
     const { projetos } = info;
@@ -62,15 +62,6 @@ function Home() {
       return randDiv;
     }
   };
-
-  const MsgDoGustavo = (e) => {
-    if (e.target.id === 'fotoGustavo') {
-      setInfo({ ...info, classMsgGus: 'MsgGus' });
-    } else {
-      setInfo({ ...info, classMsgGus: 'MsgGusNone' });
-    }
-  };
-
 
   useEffect(() => {
     const array = [];
@@ -95,42 +86,37 @@ function Home() {
               <div className='menu-header-div-interno' data-testid='Linkedin'> Linkedin</div>
             </div>
           </a>
-          <a href='#sobremim' onClick={handleIr}>
+          <a href='#sobremim'>
             <div className='menu-header-div' style={handleRandDiv()}>
               <FaAddressCard />
-              <div className='menu-header-div-interno' id="sobreMim" data-testid='SobreMim'> Sobre mim</div>
+              <div className='menu-header-div-interno' data-testid='SobreMim'> Sobre mim</div>
             </div>
           </a>
-          <a href='#habilidades' onClick={handleIr}>
+          <a href='#habilidades'>
             <div className='menu-header-div' style={handleRandDiv()}>
               <FaUserGraduate />
-              <div className='menu-header-div-interno' id="habilidades" data-testid='Habilidades'> Habilidades</div>
+              <div className='menu-header-div-interno' data-testid='Habilidades'> Habilidades</div>
             </div>
           </a>
-          <a href='#contato' onClick={handleIr}>
+          <a href='#contato'>
             <div className='menu-header-div' style={handleRandDiv()}>
               <FaPaperPlane />
-              <div className='menu-header-div-interno' id="contatos" data-testid='Contato'> Contato</div>
+              <div className='menu-header-div-interno' data-testid='Contato'> Contato</div>
+            </div>
+          </a>
+          <a href='#projetos'>
+            <div className='menu-header-div' style={handleRandDiv()}>
+              <FaFolderOpen />
+              <div className='menu-header-div-interno' data-testid='Contato'> Projetos</div>
             </div>
           </a>
         </section>
       </header>
-      <main onMouseOver={MsgDoGustavo}>
+      <main>
         <section className="App-main">
           <div className="App-central" id='fotoGustavo'></div>
-          <div className={info.classMsgGus}>{info.msgGus}</div>
-          <h1 id='habilidades' className='margem-top'><FaUserGraduate /> Habilidades</h1>
-          <section className='menu-header-tecs'>
-            {info.srcTec.map((ma, index) =>
-              <span key={index} >
-                <img height="70px"
-                  src={ma}
-                  data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
-                  alt='' />
-              </span>
-            )}
-          </section>
-          <h1 className='margem-top'><FaMedal /> Projetos</h1>
+          <div className='ClassMsgGus'>{info.msgGus}</div>
+          <h1 className='margem-top' id='projetos'><FaMedal /> Projetos</h1>
           <section className="App-section">
             <div className='App-project' style={headerDiv()}>
 
@@ -198,6 +184,17 @@ function Home() {
               </div>
 
             </div>
+          </section>
+          <h1 id="habilidades"><FaUserGraduate /> Habilidades</h1>
+          <section className='menu-header-tecs'>
+            {info.srcTec.map((ma, index) =>
+              <span key={index} >
+                <img height="70px"
+                  src={ma}
+                  data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
+                  alt='' />
+              </span>
+            )}
           </section>
           <h1 id='sobremim' className='margem-top'><FaAddressCard /> Sobre Mim</h1>
           <section className='App-main-sobre-mim'>

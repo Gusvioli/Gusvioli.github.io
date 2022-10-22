@@ -26,28 +26,25 @@ a:visited {
 h1 {
   font-size: 40px;
   text-align: left;
-  padding: 40px;
+  padding: 170px 40px 20px 40px;
 }
 
 main {
   /* margin-bottom: 120px; */
   width: 100%;
-  background-color: rgba(230, 227, 236, 0.993);
-  height: 700px;
+  /* background-color: rgba(230, 227, 236, 0.993); */
+  height: auto;
   box-shadow: 1px 1px 1px 1px rgba(182, 182, 182, 0.568);
 }
 
-.MsgGusNone {
-  display: none;
-}
-
-.MsgGus {
-  position: absolute;
-  /* top: 0; */
-  bottom: 240px;
+.ClassMsgGus {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: auto;
-  padding: 15px;
-  font-size: 24px;
+  margin: 35px 20px;
+  padding: 20px;
+  font-size: 28px;
 }
 
 .App-main-sobre-mim {
@@ -308,6 +305,13 @@ span {
     align-items: center;
   }
 
+
+  h1 {
+    font-size: 26px;
+    text-align: left;
+    padding: 80px 40px 20px 40px;
+  }
+
   .menu-header-div {
     width: 100%;
     height: 10px;
@@ -330,12 +334,11 @@ span {
   main {
     /* margin-bottom: 120px; */
     width: 100%;
-    background-color: rgba(230, 227, 236, 0.993);
-    height: 950px;
+    /* background-color: rgba(230, 227, 236, 0.993); */
+    height: auto;
     box-shadow: 1px 1px 1px 1px rgba(182, 182, 182, 0.568);
   }
-
-
+  
   footer {
     background-color: #222;
     height: auto;
@@ -382,14 +385,14 @@ span {
     box-shadow: 1px 1px 3px 3px rgba(3, 3, 3, 0.363);
   }
 
-  .MsgGus {
+  /* .ClassMsgGus {
     display: flex;
     position: absolute;
-    bottom: 145px;
+    bottom: 90px;
     align-items: center;
     justify-content: center;
     width: auto;
     padding: 20px;
-    font-size: 21px;
-  }
+    font-size: 18px;
+  } */
 }
