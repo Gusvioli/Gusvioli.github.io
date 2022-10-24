@@ -85,18 +85,6 @@ main {
   width: 100%;
 }
 
-@media only screen and (max-width: 1366px) {
-  .App-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 120px;
-    padding: 50px 0;
-    width: 100%;
-  }
-}
-
 .App-section {
   display: flex;
   flex-direction: row wrap;
@@ -286,11 +274,11 @@ span {
 }
 
 .App-central {
-  height: 12em;
+  height: 16em;
   border: 10px solid rgb(47, 53, 63);
   box-shadow: 1px 1px 10px 10px rgba(3, 3, 3, 0.363);
   padding: 15px;
-  width: 12em;
+  width: 16em;
   border-radius: 300px;
   background-image: url("../src/imgs/gusvioliFoto.jpeg");
   background-size: cover;
@@ -397,15 +385,31 @@ span {
     border: 2px solid rgb(47, 53, 63);
     box-shadow: 1px 1px 3px 3px rgba(3, 3, 3, 0.363);
   }
+}
 
-  /* .ClassMsgGus {
+
+
+@media only screen and (max-width: 1366px) {
+  .App-main {
     display: flex;
-    position: absolute;
-    bottom: 90px;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: auto;
-    padding: 20px;
-    font-size: 18px;
-  } */
+    margin-top: 120px;
+    padding: 50px 0;
+    width: 100%;
+  }
+
+  .App-central {
+    height: 14em;
+    border: 10px solid rgb(47, 53, 63);
+    box-shadow: 1px 1px 10px 10px rgba(3, 3, 3, 0.363);
+    padding: 15px;
+    width: 14em;
+    border-radius: 300px;
+    background-image: url("../src/imgs/gusvioliFoto.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
