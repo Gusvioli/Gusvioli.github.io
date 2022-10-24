@@ -342,7 +342,7 @@ span {
   
   footer {
     background-color: #222;
-    height: auto;
+    height: 20px;
     padding: 10px;
     color: white;
     position: fixed;
