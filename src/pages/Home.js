@@ -1,5 +1,15 @@
 import React, { useContext, useEffect } from 'react';
-import { FaLink, FaGithub, FaLinkedin, FaAddressCard, FaUserGraduate, FaPaperPlane, FaMedal, FaFolderOpen } from "react-icons/fa";
+import {
+  FaLink,
+  FaGithub,
+  FaLinkedin,
+  FaAddressCard,
+  FaUserGraduate,
+  FaPaperPlane,
+  FaMedal,
+  FaFolderOpen,
+  FaHandPointUp
+} from "react-icons/fa";
 import Context from '../context/Context';
 import Emailjs from '../components/Emailjs';
 import bgprojeto0 from '../imgs/bgprojeto0.png';
@@ -31,18 +41,6 @@ function Home() {
     };
     return randProjetos;
   }
-
-  // const handleIr = (event) => {
-  //   if (event.target.id === 'sobreMim') {
-  //     window.scroll(0, 950);
-  //   }
-  //   if (event.target.id === 'habilidades') {
-  //     window.scroll(0, 10);
-  //   }
-  //   if (event.target.id === 'contatos') {
-  //     window.scroll(0, 2000);
-  //   }
-  // }
 
   const headerDiv = () => {
     const { projetos } = info;
@@ -110,9 +108,15 @@ function Home() {
               <div className='menu-header-div-interno' data-testid='Contato'> Projetos</div>
             </div>
           </a>
+          <a href='#topo'>
+            <div className='menu-header-div' style={handleRandDiv()}>
+              <FaHandPointUp />
+              <div className='menu-header-div-interno' data-testid='Contato'> Ir topo</div>
+            </div>
+          </a>
         </section>
       </header>
-      <main>
+      <main id='topo'>
         <section className="App-main">
           <div className="App-central" id='fotoGustavo'></div>
           <div className='ClassMsgGus'>{info.msgGus}</div>
@@ -216,9 +220,8 @@ function Home() {
                   alt='' />
               )
             }
-          </div>
+          </div>          
         </div>
-
       </footer>
     </div>
   );
