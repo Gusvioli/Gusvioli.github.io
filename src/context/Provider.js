@@ -28,20 +28,29 @@ function Provider({ children }) {
       sobreMin: 'Meu nome é Gustavo Vieira e nasci no Rio de Janeiro. Vivo no bairro da Ilha do Governador e, quando tinha 16 anos, descobri um forte interesse por computadores e programação. Tenho curiosidade em saber como funcionam as coisas e, por isso, comecei a aprender HTML. Estudei por um ano e, depois, me interessei por CSS e PHP. Desde então, vivo aprendendo novas linguagens de programação e tudo o que puder sobre computadores. Luto para alcançar meus objetivos e, atualmente, tenho conhecimento em Python, PHP, HTML5, CSS, JAVASCRIPT, REACT, JEST, RTL, GITHUB, NODE JS, REDUX, DOCKER, SQL e Metodologias Ágeis. Meu objetivo é me tornar um desenvolvedor FullStack e ter um bom emprego na área de TI.', 
       projetosSrc: [
         {
+          img: 'bgprojeto0.png',
           nome: 'Tryunfo',
           desc: 'Projeto de um jogo no estilo Super Trunfo!',
           link: 'https://gusvioli.github.io/tryunfo',
         },
         {
+          img: 'bgprojeto1.png',
           nome: 'Solar-system',
           desc: 'Projeto para visualizar todos os planetas do sistema e suas missões espaciais',
           link: 'https://gusvioli.github.io/solar-system',
         },
         {
+          img: 'bgprojeto2.png',
           nome: 'Pixel-Art',
           desc: 'Projeto de uma página web que contém uma paleta de cores funcional que poderá ser utilizada para criar desenhos em pixels.',
           link: 'https://gusvioli.github.io/pixel-art',
-        }
+        },
+        // {
+        //   img: 'bgprojeto0.png',
+        //   nome: 'Shopping cart',
+        //   desc: 'Projeto de uma página de carrinho de compras totalmente dinâmico!',
+        //   link: 'https://gusvioli.github.io/shopping-cart',
+        // },
       ],
     });
 

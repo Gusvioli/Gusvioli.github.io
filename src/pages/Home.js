@@ -12,11 +12,9 @@ import {
 } from "react-icons/fa";
 import Context from '../context/Context';
 import Emailjs from '../components/Emailjs';
-import bgprojeto0 from '../imgs/bgprojeto0.png';
-import bgprojeto1 from '../imgs/bgprojeto1.png';
-import bgprojeto2 from '../imgs/bgprojeto2.png';
 
 function Home() {
+  // contar();
   const { info, setArray, rgb, setRgb } = useContext(Context);
 
   const handleRandDiv = () => {
@@ -29,25 +27,12 @@ function Home() {
     return randDiv;
   }
 
-  const handleProjetos = (urlSrc) => {
-    const randProjetos = {
-      width: '100%',
-      height: '100%',
-      borderRadius: '15px',
-      backgroundPosition: 0,
-      backgroundSize: '100%',
-      backgroundRepeat: 'no-repeat',
-      backgroundImage: `url(${urlSrc})`,
-    };
-    return randProjetos;
-  }
-
   const headerDiv = () => {
     const { projetos } = info;
     if (projetos.length > 0) {
       const randDiv = {
-        width: 440,
-        height: 540,
+        width: 370,
+        height: 400,
         backgroundColor: `rgb(${[80, 80, 120]})`,
       };
       return randDiv;
@@ -122,72 +107,30 @@ function Home() {
           <div className='ClassMsgGus'>{info.msgGus}</div>
           <h1 className='margem-top' id='projetos'><FaMedal /> Projetos</h1>
           <section className="App-section">
-            <div className='App-project' style={headerDiv()}>
 
-              <div className='App-projects-conteudo'>
-                <div style={handleProjetos(bgprojeto0)}></div>
-                <div className='App-projects-conteudo-nome'>
-                  <div className='msg_info_campos'>Nome do projeto:</div>
-                  {info.projetosSrc[0].nome}
-                </div>
-                <div className='App-projects-conteudo-descricao'>
-                  <div className='msg_info_campos'>Descrição do projeto:</div>
-                  {info.projetosSrc[0].desc}
-                </div>
-                <a
-                  className='App-projects-conteudo-link'
-                  href={info.projetosSrc[0].link}
-                  alt={info.projetosSrc[0].nome}
-                  target='_black'
-                > Ver projeto {info.projetosSrc[0].nome} <FaLink />
-                </a>
-              </div>
-            </div>
-            <div className='App-project' style={headerDiv()}>
-              <div className='App-projects-conteudo'>
-                <div style={handleProjetos(bgprojeto1)}></div>
-                <div className='App-projects-conteudo-nome'>
-                  <div className='msg_info_campos'>Nome do projeto:</div>
-                  {info.projetosSrc[1].nome}
-                </div>
-                <div className='App-projects-conteudo-descricao'>
-                  <div className='msg_info_campos'>Descrição do projeto:</div>
-                  {info.projetosSrc[1].desc}
-                </div>
-                <a
-                  className='App-projects-conteudo-link'
-                  href={info.projetosSrc[1].link}
-                  alt={info.projetosSrc[1].nome}
-                  target='_black'
-                > Ver projeto {info.projetosSrc[1].nome} <FaLink />
-                </a>
-              </div>
-            </div>
-            <div className='App-project' style={headerDiv()}>
-
-              <div className='App-projects-conteudo'>
-                <div style={handleProjetos(bgprojeto2)}></div>
-                <div className='App-projects-conteudo-nome'>
-                  <div className='msg_info_campos'>Nome do projeto:</div>
-                  {info.projetosSrc[2].nome}
-                </div>
-                <div className='App-projects-conteudo-descricao'>
-                  <div className='msg_info_campos'>Descrição do projeto:</div>
-                  {info.projetosSrc[2].desc}
-                </div>
-                <a
-                  className='App-projects-conteudo-link'
-                  href={info.projetosSrc[2].link}
-                  alt={info.projetosSrc[2].nome}
-                  target='_black'
-                >
-                  <div>
-                    Ver projeto {info.projetosSrc[2].nome} <FaLink />
+            {info.projetosSrc.map((ma) => (
+              <div className='App-project' style={headerDiv()}>
+                <div className='App-projects-conteudo'>
+                  <img className='divImg' src={require(`../imgs/${ma.img}`)} alt={ma.img} />
+                  <div className='App-projects-conteudo-nome'>
+                    <div className='msg_info_campos'>Nome do projeto:</div>
+                    {ma.nome}
                   </div>
-                </a>
+                  <div className='App-projects-conteudo-descricao'>
+                    <div className='msg_info_campos'>Descrição do projeto:</div>
+                    {ma.desc}
+                  </div>
+                  <a
+                    className='App-projects-conteudo-link'
+                    href={ma.link}
+                    alt={ma.nome}
+                    target='_black'
+                  > Ver projeto {ma.nome} <FaLink />
+                  </a>
+                </div>
               </div>
+            ))}
 
-            </div>
           </section>
           <h1 id="habilidades"><FaUserGraduate /> Habilidades</h1>
           <section className='menu-header-tecs'>
@@ -220,7 +163,7 @@ function Home() {
                   alt='' />
               )
             }
-          </div>          
+          </div>
         </div>
       </footer>
     </div>
