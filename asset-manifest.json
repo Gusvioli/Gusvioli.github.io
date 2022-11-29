@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a38be26.css",
-    "main.js": "/static/js/main.24d50eac.js",
+    "main.css": "/static/css/main.e7b226c1.css",
+    "main.js": "/static/js/main.a95deba3.js",
     "static/js/787.26f48dca.chunk.js": "/static/js/787.26f48dca.chunk.js",
     "static/media/bgprojeto0.png": "/static/media/bgprojeto0.67ffb3b18bacc50cb9ac.png",
     "static/media/bgprojeto1.png": "/static/media/bgprojeto1.1ff78c3e88143b984da6.png",
+    "static/media/captura-de-tela-de-2022-11-04-13-43-43.png": "/static/media/captura-de-tela-de-2022-11-04-13-43-43.db0396d483fb553d5717.png",
     "static/media/bgprojeto2.png": "/static/media/bgprojeto2.09e99a750c175e3ea857.png",
     "static/media/gusvioliFoto.jpeg": "/static/media/gusvioliFoto.bf38bef312fa28a5a10d.jpeg",
+    "static/media/arroba.png": "/static/media/arroba.08957c916cadc420ecd0.png",
     "index.html": "/index.html",
-    "main.1a38be26.css.map": "/static/css/main.1a38be26.css.map",
-    "main.24d50eac.js.map": "/static/js/main.24d50eac.js.map",
+    "main.e7b226c1.css.map": "/static/css/main.e7b226c1.css.map",
+    "main.a95deba3.js.map": "/static/js/main.a95deba3.js.map",
     "787.26f48dca.chunk.js.map": "/static/js/787.26f48dca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a38be26.css",
-    "static/js/main.24d50eac.js"
+    "static/css/main.e7b226c1.css",
+    "static/js/main.a95deba3.js"
   ]
 }
