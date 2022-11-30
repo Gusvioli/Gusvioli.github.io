@@ -112,11 +112,11 @@ function Home() {
                 <div className='App-projects-conteudo'>
                   <img className='divImg' src={require(`../imgs/${ma.img}`)} alt={ma.img} />
                   <div className='App-projects-conteudo-nome'>
-                    <div className='msg_info_campos'>Nome do projeto:</div>
+                    {/* <div className='msg_info_campos'>Nome do projeto:</div> */}
                     {ma.nome}
                   </div>
                   <div className='App-projects-conteudo-descricao'>
-                    <div className='msg_info_campos'>Descrição do projeto:</div>
+                    {/* <div className='msg_info_campos'>Descrição do projeto:</div> */}
                     {ma.desc}
                   </div>
                   <a

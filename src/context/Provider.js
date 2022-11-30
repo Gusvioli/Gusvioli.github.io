@@ -25,7 +25,7 @@ function Provider({ children }) {
       usoSite: [3, 7, 8, 9, 2],
       msgGus: 'Oi eu sou o Gustavo, seja bem vindo(a) ao meu Portfólio!', 
       classMsgGus: 'MsgGusNone',
-      sobreMin: 'Meu nome é Gustavo Vieira e nasci no Rio de Janeiro. Vivo no bairro da Ilha do Governador e, quando tinha 16 anos, descobri um forte interesse por computadores e programação. Tenho curiosidade em saber como funcionam as coisas e, por isso, comecei a aprender HTML. Estudei por um ano e, depois, me interessei por CSS e PHP. Desde então, vivo aprendendo novas linguagens de programação e tudo o que puder sobre computadores. Luto para alcançar meus objetivos e, atualmente, tenho conhecimento em Python, PHP, HTML5, CSS, JAVASCRIPT, REACT, JEST, RTL, GITHUB, NODE JS, REDUX, DOCKER, SQL e Metodologias Ágeis. Meu objetivo é me tornar um desenvolvedor FullStack e ter um bom emprego na área de TI.', 
+      sobreMin: 'Tenho grande curiosidade em entender como as coisas funcionam e, por isso, decidi me aprofundar no campo da Programação para Web. Desenvolvi habilidades em HTML5, CSS, JAVASCRIPT, REACT, GITHUB, NODE JS, REDUX, DOCKER, SQL, TYPESCRIPT, Deploy, Metodologias Ágeis; Estou sempre me atualizando e me desenvolvendo como programador. Dedico-me a atingir meus objetivos que são: me tornar um Desenvolvedor Full-Stack, conquistar reconhecimento no mercado e ter um emprego de qualidade na área Web.', 
       projetosSrc: [
         {
           img: 'bgprojeto0.png',
