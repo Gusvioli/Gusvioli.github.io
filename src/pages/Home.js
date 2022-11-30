@@ -32,7 +32,7 @@ function Home() {
     if (projetos.length > 0) {
       const randDiv = {
         width: 370,
-        height: 400,
+        height: 450,
         backgroundColor: `rgb(${[80, 80, 120]})`,
       };
       return randDiv;
@@ -107,7 +107,6 @@ function Home() {
           <div className='ClassMsgGus'>{info.msgGus}</div>
           <h1 className='margem-top' id='projetos'><FaMedal /> Projetos</h1>
           <section className="App-section">
-
             {info.projetosSrc.map((ma) => (
               <div className='App-project' style={headerDiv()}>
                 <div className='App-projects-conteudo'>
@@ -130,7 +129,6 @@ function Home() {
                 </div>
               </div>
             ))}
-
           </section>
           <h1 id="habilidades"><FaUserGraduate /> Habilidades</h1>
           <section className='menu-header-tecs'>
