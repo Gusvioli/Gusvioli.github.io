@@ -1,15 +1,4 @@
 import React, { useContext, useEffect } from 'react';
-import {
-  FaLink,
-  FaGithub,
-  FaLinkedin,
-  FaAddressCard,
-  FaUserGraduate,
-  FaPaperPlane,
-  FaMedal,
-  FaFolderOpen,
-  FaHandPointUp
-} from "react-icons/fa";
 import Context from '../context/Context';
 import Emailjs from '../components/Emailjs';
 
@@ -59,43 +48,36 @@ function Home() {
         <section className='menu-header'>
           <a href='https://github.com/Gusvioli' target='_black'>
             <div className='menu-header-div' style={handleRandDiv()}>
-              <FaGithub />
               <div className='menu-header-div-interno' data-testid='Github'> Github</div>
             </div>
           </a>
           <a href='https://www.linkedin.com/in/gustavovieiradeoliveira/' target='_black'>
             <div className='menu-header-div' style={handleRandDiv()}>
-              <FaLinkedin />
               <div className='menu-header-div-interno' data-testid='Linkedin'> Linkedin</div>
             </div>
           </a>
           <a href='#sobremim'>
             <div className='menu-header-div' style={handleRandDiv()}>
-              <FaAddressCard />
               <div className='menu-header-div-interno' data-testid='SobreMim'> Sobre mim</div>
             </div>
           </a>
           <a href='#habilidades'>
             <div className='menu-header-div' style={handleRandDiv()}>
-              <FaUserGraduate />
               <div className='menu-header-div-interno' data-testid='Habilidades'> Habilidades</div>
             </div>
           </a>
           <a href='#contato'>
             <div className='menu-header-div' style={handleRandDiv()}>
-              <FaPaperPlane />
               <div className='menu-header-div-interno' data-testid='Contato'> Contato</div>
             </div>
           </a>
           <a href='#projetos'>
             <div className='menu-header-div' style={handleRandDiv()}>
-              <FaFolderOpen />
               <div className='menu-header-div-interno' data-testid='Contato'> Projetos</div>
             </div>
           </a>
           <a href='#topo'>
             <div className='menu-header-div' style={handleRandDiv()}>
-              <FaHandPointUp />
               <div className='menu-header-div-interno' data-testid='Contato'> Ir topo</div>
             </div>
           </a>
@@ -105,10 +87,10 @@ function Home() {
         <section className="App-main">
           <div className="App-central" id='fotoGustavo'></div>
           <div className='ClassMsgGus'>{info.msgGus}</div>
-          <h1 className='margem-top' id='projetos'><FaMedal /> Projetos</h1>
+          <h1 className='margem-top' id='projetos'>Projetos</h1>
           <section className="App-section">
-            {info.projetosSrc.map((ma) => (
-              <div className='App-project' style={headerDiv()}>
+            {info.projetosSrc.map((ma, index) => (
+              <div className='App-project' style={headerDiv()} key={index}>
                 <div className='App-projects-conteudo'>
                   <img className='divImg' src={require(`../imgs/${ma.img}`)} alt={ma.img} />
                   <div className='App-projects-conteudo-nome'>
@@ -124,13 +106,13 @@ function Home() {
                     href={ma.link}
                     alt={ma.nome}
                     target='_black'
-                  > Ver projeto {ma.nome} <FaLink />
+                  > Ver projeto {ma.nome}
                   </a>
                 </div>
               </div>
             ))}
           </section>
-          <h1 id="habilidades"><FaUserGraduate /> Habilidades</h1>
+          <h1 id="habilidades">Habilidades</h1>
           <section className='menu-header-tecs'>
             {info.srcTec.map((ma, index) =>
               <span key={index} >
@@ -141,7 +123,7 @@ function Home() {
               </span>
             )}
           </section>
-          <h1 id='sobremim' className='margem-top'><FaAddressCard /> Sobre Mim</h1>
+          <h1 id='sobremim' className='margem-top'>Sobre Mim</h1>
           <section className='App-main-sobre-mim'>
             <div>{info.sobreMin}</div>
           </section>

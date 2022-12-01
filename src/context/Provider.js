@@ -45,12 +45,12 @@ function Provider({ children }) {
           desc: 'Projeto de uma página web que contém uma paleta de cores funcional que poderá ser utilizada para criar desenhos em pixels.',
           link: 'https://gusvioli.github.io/pixel-art',
         },
-        // {
-        //   img: 'bgprojeto0.png',
-        //   nome: 'Shopping cart',
-        //   desc: 'Projeto de uma página de carrinho de compras totalmente dinâmico!',
-        //   link: 'https://gusvioli.github.io/shopping-cart',
-        // },
+        {
+          img: 'bgprojeto3.png',
+          nome: 'Shopping cart',
+          desc: 'Projeto de uma página de carrinho de compras totalmente dinâmico!',
+          link: 'https://gusvioli.github.io/shopping-cart',
+        },
       ],
     });
 

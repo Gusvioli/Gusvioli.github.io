@@ -3,13 +3,13 @@ form {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 65%;
+    width: 55%;
     gap: 20px;
     font-size: 22px;
     text-align: justify;
     color: #222;
     background-color: rgb(44, 44, 44);
-    padding: 50px;
+    padding: 30px;
     border-radius: 10px;
     border: 2px solid rgb(44, 44, 44);
     box-shadow: 1px 1px 5px 5px rgba(3, 3, 3, 0.363);
@@ -22,20 +22,23 @@ form {
 
 
 input {
-  padding: 10px;
-  font-size: 22px;
+  padding: 6px;
+  font-size: 20px;
   width: 88%;
 }
 
 .input-submit {
-  width: 60%;
+  width: 70%;
+  cursor: pointer;
 }
 
 textarea {
   padding: 10px;
   font-size: 22px;
-  width: 88%;
-  height: 200px;
+  max-width: 88%;
+  min-width: 88%;
+  max-height: 160px;
+  min-height: 160px;
 }
 
 .Form-main {
@@ -43,11 +46,7 @@ textarea {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 90px;
-}
-
-.Contato {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .enviado {
