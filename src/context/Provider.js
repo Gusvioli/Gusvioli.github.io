@@ -53,7 +53,7 @@ function Provider({ children }) {
         },
         {
           img: 'bgprojeto4.png',
-          nome: 'Site de Estatistifica de textos - SetW',
+          nome: 'Site de Estatistifica - SetW',
           desc: 'Projeto de uma página de que exibe uma pequena estatisticas sobre o texto digitado!',
           link: 'https://gusvioli.github.io/setw',
         },
