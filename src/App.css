@@ -69,7 +69,8 @@ main {
   width: auto;
   margin: 35px 20px;
   padding: 20px;
-  font-size: 28px;
+  font-size: 30px;
+  font-weight: 550;
 }
 
 .App-main-sobre-mim {
