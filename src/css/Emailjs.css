@@ -14,10 +14,7 @@ form {
     border: 2px solid rgb(44, 44, 44);
     box-shadow: 1px 1px 5px 5px rgba(3, 3, 3, 0.363);
     margin-bottom: 150px;
-    /* background-image: url('../imgs/arroba.png');
-    background-size: 770px;
-    background-repeat: no-repeat;
-    background-position: 700px; */
+    background-color: rgba(3, 3, 3, 0.363);
 }
 
 
@@ -25,6 +22,7 @@ input {
   padding: 6px;
   font-size: 20px;
   width: 88%;
+  background-color: rgba(145, 143, 143, 0.363);
 }
 
 .input-submit {
@@ -39,6 +37,7 @@ textarea {
   min-width: 88%;
   max-height: 160px;
   min-height: 160px;
+  background-color: rgba(145, 143, 143, 0.363);
 }
 
 .Form-main {

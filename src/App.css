@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
-  /* box-sizing: border-box; */
+  font-family: 'Poppins', sans-serif;color:
+  rgb(201, 218, 233)
 }
 
 /* width */
@@ -54,12 +54,14 @@ h1 {
 
 main {
   /* margin-bottom: 120px; */
-  width: 100%;
-  background-color: rgba(215, 214, 219, 0.993);
+  width: 100%;background: rgb(2,0,36);
+  background: linear-gradient(90deg, 
+  rgba(2,0,36,0.9752275910364145) 7%, 
+  rgba(11,3,31,0.8799894957983193) 48%, 
+  rgba(2,0,36,1) 100%);
   height: auto;
   box-shadow: 1px 1px 1px 1px rgba(182, 182, 182, 0.568);
 }
-
 .ClassMsgGus {  
   display: flex;
   align-items: center;
@@ -123,7 +125,7 @@ main {
 .App-header {
   position: fixed;
   top: 0;
-  background-color: #222;
+  background-color: rgb(17, 17, 17);
   height: auto;
   color: white;
   width: 100%;
@@ -145,7 +147,7 @@ main {
   width: 96%;
   height: 18vh;
   padding: 15px;
-  background-color: #222;
+  background-color: rgb(17, 17, 17);
   margin: 1px 5px;
   word-break: break-all;
   font-size: 14px;
@@ -158,7 +160,7 @@ main {
   height: 2vh;
   padding: 5px 15px;
   padding-bottom: 28px;
-  background-color: #222;
+  background-color: rgb(17, 17, 17);
   margin: 1px 5px;
   font-size: 24px;
   font-weight: 550;
@@ -169,7 +171,7 @@ main {
   height: 5px;
   padding: 5px 15px;
   padding-bottom: 29px;
-  background-color: #222;
+  background-color: rgb(17, 17, 17);
   margin: 1px 5px;
   font-size: 20px;
   color: rgb(255, 255, 255);
@@ -202,7 +204,7 @@ main {
 }
 
 footer {
-  background-color: #222;
+  background-color: rgb(17, 17, 17);
   height: auto;
   padding: 10px;
   color: white;
@@ -394,11 +396,9 @@ span {
   }
 
   main {
-    /* margin-bottom: 120px; */
     width: 100%;
-    /* background-color: rgba(230, 227, 236, 0.993); */
     height: auto;
-    box-shadow: 1px 1px 1px 1px rgba(182, 182, 182, 0.568);
+    box-shadow: 1px 1px 1px 1px rgba(100, 99, 99, 0.568);
   }
   
   footer {

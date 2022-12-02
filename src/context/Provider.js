@@ -51,6 +51,12 @@ function Provider({ children }) {
           desc: 'Projeto de uma página de carrinho de compras totalmente dinâmico!',
           link: 'https://gusvioli.github.io/shopping-cart',
         },
+        {
+          img: 'bgprojeto4.png',
+          nome: 'Site de Estatistifica de textos - SetW',
+          desc: 'Projeto de uma página de que exibe uma pequena estatisticas sobre o texto digitado!',
+          link: 'https://gusvioli.github.io/setw',
+        },
       ],
     });
 

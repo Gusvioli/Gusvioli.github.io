@@ -20,8 +20,8 @@ function Home() {
     const { projetos } = info;
     if (projetos.length > 0) {
       const randDiv = {
-        width: 370,
-        height: 450,
+        width: 380,
+        height: 380,
         backgroundColor: `rgb(${[80, 80, 120]})`,
       };
       return randDiv;
@@ -90,26 +90,21 @@ function Home() {
           <h1 className='margem-top' id='projetos'>Projetos</h1>
           <section className="App-section">
             {info.projetosSrc.map((ma, index) => (
-              <div className='App-project' style={headerDiv()} key={index}>
-                <div className='App-projects-conteudo'>
-                  <img className='divImg' src={require(`../imgs/${ma.img}`)} alt={ma.img} />
-                  <div className='App-projects-conteudo-nome'>
-                    {/* <div className='msg_info_campos'>Nome do projeto:</div> */}
-                    {ma.nome}
+              <a href={ma.link} alt={ma.nome} target='_black'>
+                <div className='App-project' style={headerDiv()} key={index}>
+                  <div className='App-projects-conteudo'>
+                    <img className='divImg' src={require(`../imgs/${ma.img}`)} alt={ma.img} />
+                    <div className='App-projects-conteudo-nome'>
+                      {/* <div className='msg_info_campos'>Nome do projeto:</div> */}
+                      {ma.nome}
+                    </div>
+                    <div className='App-projects-conteudo-descricao'>
+                      {/* <div className='msg_info_campos'>Descrição do projeto:</div> */}
+                      {ma.desc}
+                    </div>
                   </div>
-                  <div className='App-projects-conteudo-descricao'>
-                    {/* <div className='msg_info_campos'>Descrição do projeto:</div> */}
-                    {ma.desc}
-                  </div>
-                  <a
-                    className='App-projects-conteudo-link'
-                    href={ma.link}
-                    alt={ma.nome}
-                    target='_black'
-                  > Ver projeto {ma.nome}
-                  </a>
                 </div>
-              </div>
+              </a>
             ))}
           </section>
           <h1 id="habilidades">Habilidades</h1>
