@@ -5,6 +5,10 @@
   rgb(201, 218, 233)
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* width */
 ::-webkit-scrollbar {
   transition: linear 0.3s;
@@ -54,14 +58,17 @@ h1 {
 
 main {
   /* margin-bottom: 120px; */
-  width: 100%;background: rgb(2,0,36);
+  width: 100%;
+  background: rgb(2,0,36);
   background: linear-gradient(90deg, 
   rgba(2,0,36,0.9752275910364145) 7%, 
   rgba(11,3,31,0.8799894957983193) 48%, 
   rgba(2,0,36,1) 100%);
   height: auto;
   box-shadow: 1px 1px 1px 1px rgba(182, 182, 182, 0.568);
+  transition: linear 0.15s;
 }
+
 .ClassMsgGus {  
   display: flex;
   align-items: center;
@@ -71,6 +78,7 @@ main {
   padding: 20px;
   font-size: 30px;
   font-weight: 550;
+  transition: linear 0.25s;
 }
 
 .App-main-sobre-mim {
@@ -440,8 +448,8 @@ span {
     gap: 50px;
     font-size: 20px;
     text-align: justify;
-    color: #222;
     background-color: rgba(132, 121, 182, 0.26);
+    color: #222;
     padding: 50px;
     border-radius: 10px;
     border: 2px solid rgb(47, 53, 63);
