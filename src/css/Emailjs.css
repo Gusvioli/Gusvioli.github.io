@@ -12,9 +12,9 @@ form {
     padding: 30px;
     border-radius: 10px;
     border: 2px solid rgb(44, 44, 44);
-    box-shadow: 1px 1px 5px 5px rgba(3, 3, 3, 0.363);
+    background-color: rgba(117, 112, 112, 0.089);
     margin-bottom: 150px;
-    background-color: rgba(3, 3, 3, 0.363);
+    background-color: rgba(3, 3, 3, 0.027);
 }
 
 
@@ -22,7 +22,7 @@ input {
   padding: 6px;
   font-size: 20px;
   width: 88%;
-  background-color: rgba(145, 143, 143, 0.363);
+  background-color: rgba(117, 112, 112, 0.089);
 }
 
 .input-submit {
@@ -37,7 +37,7 @@ textarea {
   min-width: 88%;
   max-height: 160px;
   min-height: 160px;
-  background-color: rgba(145, 143, 143, 0.363);
+  background-color: rgba(117, 112, 112, 0.089);
 }
 
 .Form-main {

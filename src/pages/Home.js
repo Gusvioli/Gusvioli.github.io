@@ -11,7 +11,7 @@ function Home() {
       width: 'auto',
       height: 10,
       padding: 10,
-      backgroundColor: `rgb(${[80, 80, 120]})`,
+      // backgroundColor: `rgb(${[80, 80, 120]})`,
     };
     return randDiv;
   }
@@ -46,60 +46,62 @@ function Home() {
     <div className="App">
       <header className="App-header">
         <section className='menu-header'>
+          <a href='/' target='_black'>
+            <div className='menu-header-div' style={handleRandDiv()}>
+                <img
+                  src={require(`../imgs/Logo_G-V-Oliveira-64x64-green.png`)}
+                  alt={info.img}
+                  style={{ width: 44, height: 44 }}
+                />
+            </div>
+          </a>
           <a href='https://github.com/Gusvioli' target='_black'>
             <div className='menu-header-div' style={handleRandDiv()}>
-              <div className='menu-header-div-interno' data-testid='Github'> Github</div>
+              <div className='menu-header-div-interno' data-testid='Github'>Github</div>
             </div>
           </a>
           <a href='https://www.linkedin.com/in/gustavovieiradeoliveira/' target='_black'>
             <div className='menu-header-div' style={handleRandDiv()}>
-              <div className='menu-header-div-interno' data-testid='Linkedin'> Linkedin</div>
+              <div className='menu-header-div-interno' data-testid='Linkedin'>Linkedin</div>
             </div>
           </a>
           <a href='#sobremim'>
             <div className='menu-header-div' style={handleRandDiv()}>
-              <div className='menu-header-div-interno' data-testid='SobreMim'> Sobre mim</div>
+              <div className='menu-header-div-interno' data-testid='SobreMim'>Sobre mim</div>
             </div>
           </a>
           <a href='#habilidades'>
             <div className='menu-header-div' style={handleRandDiv()}>
-              <div className='menu-header-div-interno' data-testid='Habilidades'> Habilidades</div>
-            </div>
-          </a>
-          <a href='#contato'>
-            <div className='menu-header-div' style={handleRandDiv()}>
-              <div className='menu-header-div-interno' data-testid='Contato'> Contato</div>
+              <div className='menu-header-div-interno' data-testid='Habilidades'>Habilidades</div>
             </div>
           </a>
           <a href='#projetos'>
             <div className='menu-header-div' style={handleRandDiv()}>
-              <div className='menu-header-div-interno' data-testid='Contato'> Projetos</div>
+              <div className='menu-header-div-interno' data-testid='Projetos'>Projetos</div>
             </div>
           </a>
           <a href='#topo'>
             <div className='menu-header-div' style={handleRandDiv()}>
-              <div className='menu-header-div-interno' data-testid='Contato'> Ir topo</div>
+              <div className='menu-header-div-interno' data-testid='IrTopo'>Ir topo</div>
             </div>
           </a>
         </section>
       </header>
       <main id='topo'>
         <section className="App-main">
-          <div className="App-central" id='fotoGustavo'></div>
-          <div className='ClassMsgGus'>{info.msgGus}</div>
+          <div className="App-central" id='fotoGustavo' data-testid='fotoGustavo'></div>
+          <div className='ClassMsgGus' data-testid='msgGus'>{info.msgGus}</div>
           <h1 className='margem-top' id='projetos'>Projetos</h1>
           <section className="App-section">
             {info.projetosSrc.map((ma, index) => (
-              <a href={ma.link} alt={ma.nome} target='_black'>
-                <div className='App-project' style={headerDiv()} key={index}>
+              <a href={ma.link} alt={ma.nome} target='_black' key={index}>
+                <div className='App-project' style={headerDiv()}>
                   <div className='App-projects-conteudo'>
                     <img className='divImg' src={require(`../imgs/${ma.img}`)} alt={ma.img} />
                     <div className='App-projects-conteudo-nome'>
-                      {/* <div className='msg_info_campos'>Nome do projeto:</div> */}
                       {ma.nome}
                     </div>
                     <div className='App-projects-conteudo-descricao'>
-                      {/* <div className='msg_info_campos'>Descrição do projeto:</div> */}
                       {ma.desc}
                     </div>
                   </div>
@@ -123,7 +125,6 @@ function Home() {
             <div>{info.sobreMin}</div>
           </section>
         </section>
-        <Emailjs />
       </main>
       <footer>
         <div className="App-footer">

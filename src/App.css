@@ -91,12 +91,14 @@ main {
   font-size: 20px;
   text-align: justify;
   color: #222;
-  background-color: rgba(132, 121, 182, 0.26);
+  /* background-color: rgba(132, 121, 182, 0.26); */
+  background-color: rgba(117, 112, 112, 0.089);
   padding: 50px;
   border-radius: 10px;
   border: 2px solid rgb(47, 53, 63);
   box-shadow: 1px 1px 3px 3px rgba(3, 3, 3, 0.363);
   transition: linear 0.15s;
+  margin-bottom: 80px;
 }
 
 .margem-top {
@@ -126,6 +128,7 @@ main {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  background-color: rgba(117, 112, 112, 0.089);
   width: 90%;
   margin-bottom: 50px;
   padding: 40px 20px;
@@ -278,7 +281,22 @@ footer {
   justify-content: center;
   align-items: center;
   color: rgb(47, 48, 48);
+  background-color: rgba(117, 112, 112, 0.089);
+  padding: 10px;
   margin: 8px;
+  width: 80%;
+}
+
+.menu-header-tecs > span {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  border: 1px solid rgba(117, 112, 112, 0.178);
+  border-radius: 7px;
+  padding: 7px;
 }
 
 .menu-header-div-tecs-name {
@@ -293,7 +311,7 @@ span {
   align-items: flex-start;
   margin: 5px;
   border-radius: 10px;
-  border: #222 solid 2px;
+  /* border: #222 solid 2px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -307,7 +325,8 @@ span {
   align-items: flex-start;
   margin: 5px;
   border-radius: 10px;
-  border: rgb(81, 148, 5) solid 2px;
+  /* border: rgb(81, 148, 5) solid 2px; */
+  text-decoration: underline rgb(81, 148, 5) 2px;
   display: flex;
   align-items: center;
   justify-content: center;
