@@ -1,6 +1,5 @@
 import React, { useContext, useEffect } from 'react';
 import Context from '../context/Context';
-import Emailjs from '../components/Emailjs';
 
 function Home() {
   // contar();
