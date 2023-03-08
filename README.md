@@ -20,14 +20,14 @@ Estou confiante em minhas habilidades e determinado a alcançar meus objetivos p
       <tr valign="top">
           <td width="110px" align="center">
             <img
-              height="60px" src="https://www.vectorlogo.zone/logos/eslint/eslint-ar21.svg"
+              height="auto" width="auto" src="https://www.vectorlogo.zone/logos/eslint/eslint-ar21.svg"
               data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
               alt=""
             />
           </td>
           <td width="110px" align="center">
           <img
-            height="60px"
+            height="auto" width="auto"
             src="https://camo.githubusercontent.com/7b7f04b16cc2d2d4a32985710e4d640985337a32bbb1e60cdacede2c8a4ae57b/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f72656475782e737667"
             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
             alt=""
@@ -35,7 +35,7 @@ Estou confiante em minhas habilidades e determinado a alcançar meus objetivos p
         </td>
         <td width="110px" align="center">
           <img
-            height="60px"
+            height="auto" width="auto"
             src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-ar21.svg"
             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
             alt=""
@@ -43,7 +43,7 @@ Estou confiante em minhas habilidades e determinado a alcançar meus objetivos p
         </td>
         <td width="110px" align="center">
           <img
-            height="60px"
+            height="auto" width="auto"
             src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"
             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
             alt=""
@@ -51,7 +51,7 @@ Estou confiante em minhas habilidades e determinado a alcançar meus objetivos p
         </td>
         <td width="110px" align="center">
           <img
-            height="60px"
+            height="auto" width="auto"
             src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"
             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
             alt=""
@@ -59,7 +59,7 @@ Estou confiante em minhas habilidades e determinado a alcançar meus objetivos p
         </td>
         <td width="110px" align="center">
           <img
-            height="60px"
+            height="auto" width="auto"
             src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"
             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
             alt=""
@@ -67,7 +67,7 @@ Estou confiante em minhas habilidades e determinado a alcançar meus objetivos p
         </td>
         <td width="110px" align="center">
           <img
-            height="60px"
+            height="auto" width="auto"
             src="https://camo.githubusercontent.com/aa85cea585880ae694b4fe8dde116d092b8907d6351c71fcd76f00f7586fad72/68747470733a2f2f74657374696e672d6c6962726172792e636f6d2f696d672f6f63746f7075732d313238783132382e706e67"
             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
             alt=""
@@ -75,7 +75,7 @@ Estou confiante em minhas habilidades e determinado a alcançar meus objetivos p
         </td>
         <td width="110px" align="center">
           <img
-            height="60px"
+            height="auto" width="auto"
             src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"
             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
             alt=""
@@ -83,7 +83,7 @@ Estou confiante em minhas habilidades e determinado a alcançar meus objetivos p
         </td>
         <td width="110px" align="center">
           <img
-            height="60px"
+            height="auto" width="auto"
             src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg"
             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
             alt=""
@@ -93,7 +93,7 @@ Estou confiante em minhas habilidades e determinado a alcançar meus objetivos p
       <tr valign="top">
         <td width="110px" align="center">
           <img
-            height="60px"
+            height="auto" width="auto"
             src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"
             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
             alt=""
@@ -101,7 +101,7 @@ Estou confiante em minhas habilidades e determinado a alcançar meus objetivos p
         </td>
         <td width="110px" align="center">
           <img
-            height="60px"
+            height="auto" width="auto"
             src="https://www.vectorlogo.zone/logos/docker/docker-official.svg"
             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
             alt=""
@@ -109,7 +109,7 @@ Estou confiante em minhas habilidades e determinado a alcançar meus objetivos p
         </td>
         <td width="110px" align="center">
           <img
-            height="60px"
+            height="auto" width="auto"
             src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg"
             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
             alt=""
@@ -117,7 +117,7 @@ Estou confiante em minhas habilidades e determinado a alcançar meus objetivos p
         </td>
         <td width="110px" align="center">
           <img
-            height="60px"
+            height="auto" width="auto"
             src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"
             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
             alt=""
@@ -125,7 +125,7 @@ Estou confiante em minhas habilidades e determinado a alcançar meus objetivos p
         </td>
         <td width="110px" align="center">
           <img
-            height="60px"
+            height="auto" width="auto"
             src="https://www.vectorlogo.zone/logos/sequelizejs/sequelizejs-ar21.svg"
             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
             alt=""
@@ -133,7 +133,7 @@ Estou confiante em minhas habilidades e determinado a alcançar meus objetivos p
         </td>
         <td width="110px" align="center">
           <img
-            height="60px"
+            height="auto" width="auto"
             src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"
             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
             alt=""
@@ -141,7 +141,7 @@ Estou confiante em minhas habilidades e determinado a alcançar meus objetivos p
         </td>
         <td width="110px" align="center">
           <img
-            height="60px"
+            height="auto" width="auto"
             src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg"
             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
             alt=""
@@ -149,7 +149,7 @@ Estou confiante em minhas habilidades e determinado a alcançar meus objetivos p
         </td>
         <td width="110px" align="center">
           <img
-            height="60px"
+            height="auto" width="auto"
             src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"
             data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
             alt=""
