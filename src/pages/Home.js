@@ -49,7 +49,7 @@ function Home() {
             <div className='menu-header-div' style={handleRandDiv()}>
                 <img
                   src={require(`../imgs/Logo_G-V-Oliveira-64x64-green.png`)}
-                  alt={info.img}
+                  alt="Árvore Oliveira"
                   style={{ width: 44, height: 44 }}
                 />
             </div>
