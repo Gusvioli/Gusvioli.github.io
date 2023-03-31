@@ -30,10 +30,8 @@ function Provider({ children }) {
       usoSite: [3, 7, 8, 9, 2],
       msgGus: 'Oi eu sou o Gustavo, seja bem vindo(a) ao meu Portfólio!', 
       classMsgGus: 'MsgGusNone',
-      sobreMin: `Tenho uma grande curiosidade em entender como as coisas funcionam e, por isso, decidi me aprofundar no campo da programação para a Web.
-      Atualmente, tenho habilidades em várias tecnologias, como HTML5, CSS, JavaScript, React, GitHub, Node.js, Redux, Docker, SQL, TypeScript, Deploy e metodologias ágeis.
-      Além disso, estou sempre me atualizando e me desenvolvendo como programador, buscando novos conhecimentos e desafios. Meu objetivo é me tornar um desenvolvedor full-stack altamente qualificado, conquistar reconhecimento no mercado de trabalho e obter um emprego de qualidade na área de desenvolvimento web.
-      Estou confiante em minhas habilidades e determinado a alcançar meus objetivos por meio de trabalho duro e dedicação. Acredito que com minha paixão pela programação e minha ética de trabalho, posso contribuir de forma significativa para o sucesso de qualquer projeto de desenvolvimento web.`, 
+      sobreMin: `Tenho uma grande curiosidade em entender como as coisas funcionam e, por isso, decidi me aprofundar no campo da programação para a Web. Atualmente, tenho habilidades em várias tecnologias, como Html5, Css, JavaScript, ReactJs, GitHub, NodeJs, Redux, Docker, SQL, TypeScript, Python, Deploy e metodologias ágeis.
+      Além disso, estou sempre me atualizando e me desenvolvendo como programador, buscando novos conhecimentos e desafios através de fórum, artigos, videos pela internet e Hackerrank. Meu objetivo é me tornar um desenvolvedor Full-Stack altamente qualificado, conquistar reconhecimento no mercado de trabalho e obter um emprego de qualidade na área de desenvolvimento web.`, 
       projetosSrc: [
         {
           img: 'bgprojeto0.png',
