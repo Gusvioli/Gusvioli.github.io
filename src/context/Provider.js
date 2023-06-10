@@ -34,7 +34,7 @@ function Provider({ children }) {
       Além disso, estou sempre me atualizando e me desenvolvendo como programador, buscando novos conhecimentos e desafios através de fórum, artigos, videos pela internet e Hackerrank. Meu objetivo é me tornar um desenvolvedor Full-Stack altamente qualificado, conquistar reconhecimento no mercado de trabalho e obter um emprego de qualidade na área de desenvolvimento web.`, 
       projetosSrc: [
         {
-          img: 'bgprojeto0.png',
+          img: 'bgprojeto5.png',
           nome: 'Tryunfo',
           desc: 'Projeto de um jogo no estilo Super Trunfo!',
           link: 'https://gusvioli.github.io/tryunfo',
@@ -64,7 +64,7 @@ function Provider({ children }) {
           link: 'https://gusvioli.github.io/setw',
         },
         {
-          img: 'bgprojeto5.png',
+          img: 'bgprojeto0.png',
           nome: 'Lista de tarefas - To-do-list',
           desc: 'Esse é um projeto Full-stack para o portfólio de Gustavo Vieira. Ele funciona como um sistema C.R.U.D (Create, Read, Update e Delete) que armazena tarefas de um usuário em um banco de dados MySQL.',
           link: 'http://187.67.70.21:3000/',
