@@ -63,6 +63,12 @@ function Provider({ children }) {
           desc: 'Projeto de uma página de que exibe uma pequena estatisticas sobre o texto digitado!',
           link: 'https://gusvioli.github.io/setw',
         },
+        {
+          img: 'bgprojeto5.png',
+          nome: 'Lista de tarefas - To-do-list',
+          desc: 'Esse é um projeto Full-stack para o portfólio de Gustavo Vieira. Ele funciona como um sistema C.R.U.D (Create, Read, Update e Delete) que armazena tarefas de um usuário em um banco de dados MySQL.',
+          link: 'http://187.67.70.21:3000/',
+        },
       ],
     });
 
