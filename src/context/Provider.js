@@ -35,9 +35,9 @@ function Provider({ children }) {
       projetosSrc: [
         {
           img: 'bgprojeto5.png',
-          nome: 'Tryunfo',
-          desc: 'Projeto de um jogo no estilo Super Trunfo!',
-          link: 'https://gusvioli.github.io/tryunfo',
+          nome: 'Lista de tarefas - To-do-list',
+          desc: 'Esse é um projeto Full-stack para o portfólio de Gustavo Vieira. Ele funciona como um sistema C.R.U.D (Create, Read, Update e Delete) que armazena tarefas de um usuário em um banco de dados MySQL.',
+          link: 'http://187.67.70.21:3000/',
         },
         {
           img: 'bgprojeto1.png',
@@ -65,9 +65,9 @@ function Provider({ children }) {
         },
         {
           img: 'bgprojeto0.png',
-          nome: 'Lista de tarefas - To-do-list',
-          desc: 'Esse é um projeto Full-stack para o portfólio de Gustavo Vieira. Ele funciona como um sistema C.R.U.D (Create, Read, Update e Delete) que armazena tarefas de um usuário em um banco de dados MySQL.',
-          link: 'http://187.67.70.21:3000/',
+          nome: 'Tryunfo',
+          desc: 'Projeto de um jogo no estilo Super Trunfo!',
+          link: 'https://gusvioli.github.io/tryunfo',
         },
       ],
     });
