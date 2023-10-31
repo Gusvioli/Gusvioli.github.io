@@ -223,14 +223,18 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  padding: 10px;
+  transition: linear 0.15s;
+  height: auto;
 }
 
 .App-footer {
   display: flex;
-  flex-direction: column wrap;
+  flex-direction: row wrap;
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: auto;
 }
 
 .App-title {

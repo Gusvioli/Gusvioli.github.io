@@ -132,10 +132,12 @@ function Home() {
           <div className='App-footer-info-usoSite'>
             {
               info.usoSite.map((element, index) =>
-                <img key={index} height="25px"
+                <img key={index}
+                  width="55px"
                   src={info.srcTec[element]}
                   data-canonical-src="https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg"
-                  alt='' />
+                  alt=''
+                  />
               )
             }
           </div>
