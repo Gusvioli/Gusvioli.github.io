@@ -1,0 +1,13 @@
+.contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 50px;
+    background-color:rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom, rgb(214, 208, 196), rgb(185, 194, 186));
+    padding: 15px;
+    color: black;
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "img": "/src/assets/bgprojeto5.png",
+    "nome": "Lista de tarefas - To-do-list",
+    "desc": "Esse é um projeto Full-stack e funciona como um sistema C.R.U.D (Create, 'Read', Update e Delete) que armazena tarefas de um usuário em um banco de dados MySQL.",
+    "link": "http://187.67.70.21:3000/",
+    "tecs": [
+      "javascript",
+      "mysql",
+      "docker",
+      "typescript",
+      "html5",
+      "jest",
+      "css3",
+      "reactjs",
+      "expressjs",
+      "sequelize",
+      "..."
+    ]
+  },
+  {
+    "img": "/src/assets/bgprojeto1.png",
+    "nome": "Solar-system",
+    "desc": "Projeto para visualizar todos os planetas do sistema e suas missões espaciais",
+    "link": "https://gusvioli.github.io/solar-system",
+    "tecs": [
+      "javascript",
+      "html5",
+      "css3",
+      "reactjs"
+    ]
+  },
+  {
+    "img": "/src/assets/bgprojeto2.png",
+    "nome": "Pixel-Art",
+    "desc": "Projeto de uma página web que contém uma paleta de cores funcional que poderá ser utilizada para criar desenhos em pixels.",
+    "link": "https://gusvioli.github.io/pixel-art",
+    "tecs": [
+      "javascript",
+      "html5",
+      "css3",
+      "reactjs"
+   ]
+  },
+  {
+    "img": "/src/assets/bgprojeto3.png",
+    "nome": "Shopping cart",
+    "desc": "Projeto de uma página de carrinho de compras totalmente dinâmico!",
+    "link": "https://gusvioli.github.io/shopping-cart",
+    "tecs": [
+      "javascript",
+      "html5",
+      "css3",
+      "reactjs"
+   ]
+  },
+  {
+    "img": "/src/assets/bgprojeto4.png",
+    "nome": "Site de Estatistifica - SetW",
+    "desc": "Projeto de uma página de que exibe uma pequena estatisticas sobre o texto digitado!",
+    "link": "https://gusvioli.github.io/setw",
+    "tecs": [
+      "javascript",
+      "html5",
+      "css3",
+      "reactjs"
+   ]
+  },
+  {
+    "img": "/src/assets/bgprojeto0.png",
+    "nome": "Tryunfo",
+    "desc": "Projeto de um jogo no estilo Super Trunfo!",
+    "link": "https://gusvioli.github.io/tryunfo",
+    "tecs": [
+      "javascript",
+      "html5",
+      "css3",
+      "reactjs"
+   ]
+  }
+]
