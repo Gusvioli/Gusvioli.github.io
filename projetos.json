@@ -1,0 +1,142 @@
+[
+  {
+    "title": "SaaS & Tecnologia",
+    "description": "Landing page moderna inspirada em players como Stripe. Inclui tabelas de preços e FAQ em acordeão.",
+    "image": "screenshots/landing1-thumbnail.jpg",
+    "alt": "SaaS Tech",
+    "tags": ["CSS Animations", "Pricing Tables", "JS Accordion"]
+  },
+  {
+    "title": "Portfólio Dark Mode",
+    "description": "Visual \"hacker\" sofisticado para devs. Efeito de digitação (Typewriter) e cards com brilho neon.",
+    "image": "screenshots/landing2-thumbnail.jpg",
+    "alt": "Portfólio Dark",
+    "tags": ["Dark Mode", "JS Typewriter", "CSS Glow"]
+  },
+  {
+    "title": "Portfólio Artístico",
+    "description": "Template minimalista com galeria Masonry e scroll suave (Parallax) para fotógrafos e designers.",
+    "image": "screenshots/landing3-thumbnail.jpg",
+    "alt": "Portfólio Criativo",
+    "tags": ["Masonry Grid", "Parallax JS", "Minimal UI"]
+  },
+  {
+    "title": "Curso Online (Infoproduto)",
+    "description": "Focada em conversão e copywriting. Contém cronômetro de escassez e seção de módulos detalhada.",
+    "image": "screenshots/landing4-thumbnail.jpg",
+    "alt": "Curso Online",
+    "tags": ["JS Timer", "Testimonials", "Sales Funnel"]
+  },
+  {
+    "title": "Lançamento de App",
+    "description": "Design clean estilo Apple com mockups de dispositivos e botões diretos para as App Stores.",
+    "image": "screenshots/landing5-thumbnail.jpg",
+    "alt": "Lançamento App",
+    "tags": ["Mobile First", "CSS Grid", "Store Badges"]
+  },
+  {
+    "title": "Lista de Espera (MVP)",
+    "description": "Página ultra-otimizada para captura de leads (Opt-in) e validação de ideias antes do lançamento.",
+    "image": "screenshots/landing6-thumbnail.jpg",
+    "alt": "Lista de Espera",
+    "tags": ["Lead Capture", "Form Validation", "Conversion"]
+  },
+  {
+    "title": "Advocacia & Jurídico",
+    "description": "Transmite seriedade e tradição. Paleta de cores sóbrias e tipografia clássica serifada.",
+    "image": "screenshots/landing7-thumbnail.jpg",
+    "alt": "Advocacia",
+    "tags": ["Semantic HTML", "Formal UI", "Responsive"]
+  },
+  {
+    "title": "Restaurante & Delivery",
+    "description": "Layout \"apetitoso\" com cardápio visual elegante, galeria de fotos e botões de pedido.",
+    "image": "screenshots/landing8-thumbnail.jpg",
+    "alt": "Restaurante",
+    "tags": ["Image Gallery", "Menu Grid", "CTA Buttons"]
+  },
+  {
+    "title": "Evento & Conferência",
+    "description": "Design estilo tech para conferências. Exibe palestrantes em grid e tabela de lotes de ingressos.",
+    "image": "screenshots/landing9-thumbnail.jpg",
+    "alt": "Evento Tech",
+    "tags": ["Schedule Table", "Speaker Cards", "JS Countdown"]
+  },
+  {
+    "title": "Black Friday (Oferta)",
+    "description": "Design agressivo de alta urgência com cores vibrantes (Dark/Neon) e contador regressivo.",
+    "image": "screenshots/landing10-thumbnail.jpg",
+    "alt": "Black Friday",
+    "tags": ["Urgency Timer", "CSS Animations", "High Contrast"]
+  },
+  {
+    "title": "Clínica & Saúde",
+    "description": "Visual limpo (Branco/Azul) que transmite higiene. Foco em agendamento de consultas.",
+    "image": "screenshots/landing11-thumbnail.jpg",
+    "alt": "Clínica Médica",
+    "tags": ["Clean Layout", "Appointment Form", "Trust Signals"]
+  },
+  {
+    "title": "Imobiliária de Luxo",
+    "description": "Galeria de fotos imersiva para vender sonhos e moradias de alto padrão. Plantas visualizáveis.",
+    "image": "screenshots/landing12-thumbnail.jpg",
+    "alt": "Imobiliária Luxo",
+    "tags": ["Slider JS", "Photo Gallery", "Premium UI"]
+  },
+  {
+    "title": "Agência de Marketing",
+    "description": "Design energético B2B com fundo escuro. Exibe cases de sucesso e logos de clientes.",
+    "image": "screenshots/landing13-thumbnail.jpg",
+    "alt": "Agência Digital",
+    "tags": ["Counter JS", "Client Grid", "B2B Design"]
+  },
+  {
+    "title": "Personal Trainer",
+    "description": "Foco em \"Antes e Depois\" e transformação. Ideal para venda de consultoria e planos.",
+    "image": "screenshots/landing14-thumbnail.jpg",
+    "alt": "Personal Trainer",
+    "tags": ["Image Compare", "Video Embed", "Fitness UI"]
+  },
+  {
+    "title": "Serviços Locais",
+    "description": "Para eletricistas e técnicos. Focada em urgência com botões de chamada e lista de serviços.",
+    "image": "screenshots/landing15-thumbnail.jpg",
+    "alt": "Serviços Locais",
+    "tags": ["Floating Fab", "Click-to-Call", "Local SEO"]
+  },
+  {
+    "title": "Barbearia Old School",
+    "description": "Estilo moderno com tons escuros. Tabela de preços e integração de agenda.",
+    "image": "screenshots/landing16-thumbnail.jpg",
+    "alt": "Barbearia",
+    "tags": ["Gold Palette", "Pricing List", "Booking UI"]
+  },
+  {
+    "title": "Consultoria Financeira",
+    "description": "Passa autoridade com layout corporativo, calculadoras interativas e gráficos.",
+    "image": "screenshots/landing17-thumbnail.jpg",
+    "alt": "Consultoria Financeira",
+    "tags": ["JS Charts", "Calculator", "Trust UI"]
+  },
+  {
+    "title": "Turismo & Viagens",
+    "description": "Visual deslumbrante. Hero com foto de paisagem, pacotes de viagem em cards e roteiros.",
+    "image": "screenshots/landing18-thumbnail.jpg",
+    "alt": "Agência de Viagens",
+    "tags": ["Video Hero", "Card Layouts", "CSS Aspect Ratio"]
+  },
+  {
+    "title": "Pet Shop",
+    "description": "Visual limpo e amigável. Destaque para serviços de banho e tosa e fotos de pets.",
+    "image": "screenshots/landing19-thumbnail.jpg",
+    "alt": "Pet Shop",
+    "tags": ["Playful UI", "Rounded CSS", "Services Grid"]
+  },
+  {
+    "title": "Arquitetura & Design",
+    "description": "Layout sofisticado com linhas finas e tipografia elegante. Vitrine de projetos.",
+    "image": "screenshots/landing20-thumbnail.jpg",
+    "alt": "Arquitetura",
+    "tags": ["Sophisticated UI", "Thin Typography", "Forms"]
+  }
+]

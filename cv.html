@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Gustavo Vieira</title>
+    <link rel="stylesheet" href="cv.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Botões de Ação (Não saem na impressão) -->
+    <div class="no-print action-bar">
+      <a href="index.html" class="btn-back">&larr; Voltar ao Site</a>
+      <button onclick="window.print()" class="btn-print">
+        <i class="fas fa-print"></i> Salvar PDF / Imprimir
+      </button>
+    </div>
+
+    <div class="a4-page">
+      <header class="cv-header">
+        <div class="header-main">
+          <h1>Gustavo Vieira</h1>
+          <h2>Desenvolvedor Web & Browser Extensions</h2>
+          <p class="stack-highlight">
+            React · JavaScript · Node.js · Full Stack
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i> Rio de Janeiro, Brasil
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i> (21) 98071-6924
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i> gustavovieiradeoliveira@gmail.com
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <a
+              href="https://www.linkedin.com/in/gustavovieiradev"
+              target="_blank"
+              >/in/gustavovieiradev</a
+            >
+          </div>
+        </div>
+      </header>
+
+      <div class="cv-body-grid">
+        <!-- Coluna Principal (Esquerda) -->
+        <main class="main-column">
+          <section class="cv-section">
+            <h3><i class="fas fa-user-circle"></i> Resumo Profissional</h3>
+            <p>
+              Desenvolvedor Web Full Stack movido pela curiosidade e focado em
+              soluções escaláveis. Minha jornada começou de forma autodidata e
+              se consolidou na Trybe, com aprendizado contínuo em Ciência da
+              Computação.
+            </p>
+            <p>
+              Tenho experiência prática na construção de aplicações robustas
+              utilizando <strong>React, Node.js e TypeScript</strong>. Atuo com
+              naturalidade do front ao back-end, sempre priorizando código
+              limpo, performance e a experiência do usuário. Busco projetos
+              desafiadores onde possa aplicar lógica para entregar valor real.
+            </p>
+          </section>
+
+          <section class="cv-section">
+            <h3><i class="fas fa-graduation-cap"></i> Formação Acadêmica</h3>
+
+            <div class="timeline-item">
+              <div class="timeline-header">
+                <h4>Ciência da Computação</h4>
+                <span class="date">Fev 2024 - Fev 2027</span>
+              </div>
+              <span class="institution">Estácio (Bacharelado)</span>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-header">
+                <h4>Desenvolvimento Web Full Stack</h4>
+                <span class="date">Mar 2022 - Mar 2023</span>
+              </div>
+              <span class="institution">Trybe</span>
+              <p class="description">
+                Curso intensivo (+1500h) focado em fundamentos, front-end,
+                back-end, ciência da computação, metodologias ágeis e soft
+                skills.
+              </p>
+            </div>
+          </section>
+
+          <section class="cv-section">
+            <h3><i class="fas fa-certificate"></i> Certificações</h3>
+            <ul class="cert-list">
+              <li>Fundamentos do Desenvolvimento Web</li>
+              <li>Desenvolvimento Front-End</li>
+              <li>Desenvolvimento Back-End</li>
+              <li>Módulo de Ciência da Computação</li>
+              <li>Curso Introdutório de JavaScript</li>
+            </ul>
+          </section>
+        </main>
+
+        <!-- Coluna Lateral (Direita) -->
+        <aside class="sidebar-column">
+          <section class="cv-section">
+            <h3>Competências</h3>
+
+            <div class="skill-category">
+              <h4>Front-End</h4>
+              <div class="tags">
+                <span>React.js</span> <span>Redux</span> <span>HTML5</span>
+                <span>CSS3</span> <span>DOM</span> <span>Chrome DevTools</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h4>Back-End</h4>
+              <div class="tags">
+                <span>Node.js</span> <span>PHP</span> <span>SQL</span>
+                <span>Python</span> <span>API REST</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h4>Ferramentas</h4>
+              <div class="tags">
+                <span>Git & GitHub</span> <span>Docker</span>
+                <span>VS Code</span> <span>Metodologias Ágeis</span>
+              </div>
+            </div>
+          </section>
+        </aside>
+      </div>
+    </div>
+  </body>
+</html>

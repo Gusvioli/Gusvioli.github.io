@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gustavo Vieira | Full Stack Developer</title>
+    <meta
+      name="description"
+      content="Portfólio de Gustavo Vieira. +20 Projetos entregues em SaaS, Mobile e Web de Alta Performance."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a href="#header" class="logo">G.V.</a>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#stack">Stack</a></li>
+          <li><a href="#contact" class="btn-primary">Contato</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+      <!-- Menu Mobile Funcional -->
+      <div class="mobile-nav" id="mobile-nav-menu">
+        <ul>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#stack">Stack</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="container">
+        <canvas id="hero-particles"></canvas>
+
+        <div class="hero-content">
+          <div class="profile-wrapper">
+            <img
+              src="images/foto.jpg"
+              onerror="
+                this.onerror = null;
+                this.src = 'https://github.com/Gusvioli.png';
+              "
+              alt="Foto de Perfil Gustavo Vieira"
+              class="profile-pic"
+            />
+          </div>
+
+          <span class="greeting">Olá, eu sou</span>
+          <h1 class="animate-text">Gustavo Vieira.</h1>
+          <h2 class="animate-text delay-1">
+            Arquitetura de software escalável.
+          </h2>
+          <p class="animate-text delay-2">
+            Desenvolvedor Full Stack com foco em criar experiências digitais
+            excepcionais. Transformo requisitos complexos em código limpo,
+            performático e produtos de sucesso.
+          </p>
+          <div class="cta-group animate-text delay-3">
+            <a href="#projects" class="btn-outline">Ver Portfólio (+20)</a>
+            <a href="cv.html" class="btn-text">Ver Currículo &rarr;</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="container reveal">
+        <div class="section-header">
+          <h3>01. Sobre Mim</h3>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Minha paixão é construir software que resolve problemas reais. Com
+              um background forte em engenharia de software e design de
+              interfaces, consigo atuar desde a concepção do banco de dados até
+              a animação final no frontend.
+            </p>
+            <p>
+              Abaixo você encontrará uma seleção de
+              <strong>20 projetos</strong> que demonstram minha versatilidade
+              entre desenvolvimento Web, Mobile, SaaS e E-commerce.
+            </p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <h4>Full Stack</h4>
+              <p>Frontend & Backend</p>
+            </div>
+            <div class="stat-card">
+              <h4>+20</h4>
+              <p>Projetos em Destaque</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="container reveal">
+        <div class="section-header">
+          <h3>02. Projetos Selecionados</h3>
+        </div>
+        <p class="section-subtitle">
+          Uma coleção de trabalhos recentes cobrindo SaaS, E-commerce, Apps e
+          APIs.
+        </p>
+
+        <div class="projects-grid"></div>
+      </section>
+
+      <section id="stack" class="container reveal">
+        <div class="section-header">
+          <h3>03. Stack Tecnológica</h3>
+        </div>
+        <ul class="skills-list">
+          <li>JavaScript (ES6+)</li>
+          <li>TypeScript</li>
+          <li>React / Next.js</li>
+          <li>Node.js</li>
+          <li>PostgreSQL</li>
+          <li>Docker & AWS</li>
+          <li>HTML5 & CSS3</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="container reveal">
+        <div class="contact-box">
+          <h3>04. Vamos Trabalhar Juntos?</h3>
+          <p>
+            Tem um projeto em mente ou quer apenas dar um oi? Preencha os campos
+            abaixo e eu retornarei o mais breve possível.
+          </p>
+
+          <!-- IMPORTANTE: Substitua 'SEU_ID_AQUI' pela sua URL do Formspree -->
+          <form
+            action="https://formspree.io/f/SEU_ID_AQUI"
+            method="POST"
+            class="contact-form"
+          >
+            <div class="input-group">
+              <input type="text" name="name" placeholder="Seu Nome" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Seu E-mail"
+                required
+              />
+            </div>
+
+            <textarea
+              name="message"
+              placeholder="Sua Mensagem"
+              rows="5"
+              required
+            ></textarea>
+
+            <button type="submit" class="btn-primary big-btn">
+              Enviar Mensagem
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <a href="#header" class="back-to-top" id="backToTop" aria-label="Voltar ao Topo">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path
+          d="M11.9999 10.8284L7.05016 15.7782L5.63595 14.364L11.9999 8L18.3639 14.364L16.9497 15.7782L11.9999 10.8284Z"
+        ></path>
+      </svg>
+    </a>
+
+    <footer>
+      <div class="social-links">
+        <!-- Link do LinkedIn atualizado -->
+        <a
+          href="https://linkedin.com/in/seu-usuario"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              d="M18.335 18.335V13.063C18.335 10.51 17.834 8.537 14.82 8.537C13.323 8.537 12.358 9.35 11.949 10.123V8.79H8.79V18.335H11.95V13.635C11.95 12.113 12.232 10.66 14.037 10.66C15.812 10.66 15.842 12.373 15.842 13.728V18.335H18.335ZM5.635 7.072C4.665 7.072 3.895 6.302 3.895 5.332C3.895 4.362 4.665 3.592 5.635 3.592C6.605 3.592 7.375 4.362 7.375 5.332C7.375 6.302 6.605 7.072 5.635 7.072ZM7.21 18.335H4.06V8.79H7.21V18.335Z"
+            ></path>
+          </svg>
+        </a>
+        <a
+          href="https://github.com/Gusvioli"
+          target="_blank"
+          aria-label="GitHub"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              d="M12 2C6.475 2 2 6.475 2 12C2 16.425 4.8625 20.15 8.8375 21.4875C9.3375 21.575 9.525 21.275 9.525 21.0125C9.525 20.775 9.5125 20.0125 9.5125 19.2C7.0125 19.6625 6.35 18.1625 6.15 17.6125C6.0375 17.325 5.55 16.8 5.125 16.5625C4.775 16.375 4.275 15.9125 5.1125 15.9C5.9 15.8875 6.4625 16.625 6.65 16.925C7.55 18.4375 8.9875 18.0125 9.5625 17.75C9.65 17.1 9.9125 16.6625 10.2 16.4125C7.975 16.1625 5.65 15.3 5.65 11.6375C5.65 10.5875 6.025 9.725 6.65 9.05C6.55 8.8 6.2 7.8875 6.75 6.65C7.65 6.35 8.925 7.1125 9.525 7.525C10.375 7.3 11.225 7.1875 12.075 7.1875C12.925 7.1875 13.775 7.3 14.625 7.525C15.225 7.1125 16.5 6.35 17.4 6.65C17.95 7.8875 17.6 8.8 17.5 9.05C18.125 9.725 18.5 10.5875 18.5 11.6375C18.5 15.3125 16.175 16.1625 13.95 16.4125C14.325 16.725 14.6125 17.3125 14.6125 18.225C14.6125 19.5125 14.6 20.575 14.6 21.0125C14.6 21.275 14.7875 21.5875 15.2875 21.4875C19.2625 20.15 22.125 16.425 22.125 12C22.125 6.475 17.65 2 12 2Z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+      <p>&copy; 2024 Gustavo Vieira. Desenvolvido com HTML, CSS e JS Puro.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
