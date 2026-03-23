@@ -27,6 +27,10 @@ body {
     overflow-x: hidden;
 }
 
+section {
+    padding: 100px 0;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -214,7 +218,7 @@ section {
 .section-header {
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    margin: 50px 0 40px 0;
 }
 
 .section-header h3 {
@@ -237,6 +241,12 @@ section {
     font-family: var(--font-mono);
     margin-bottom: 50px;
     display: block;
+}
+
+#contact {
+    margin-top: 50px;
+    border-radius: 6px;
+    padding: 40px;
 }
 
 /* About & Stack */
