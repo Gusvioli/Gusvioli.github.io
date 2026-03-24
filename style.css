@@ -666,6 +666,10 @@ footer {
     .about-grid { grid-template-columns: 1fr; }
     .section-header::after { width: 100%; }
     .menu-toggle { display: block; }
-    .projects-grid { gap: 30px; }
+    .projects-grid { 
+        grid-template-columns: 1fr;
+        gap: 30px; 
+    }
     .input-group { flex-direction: column; }
+    .project-image img { filter: none; }
 }

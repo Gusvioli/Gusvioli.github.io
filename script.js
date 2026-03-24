@@ -82,44 +82,21 @@ document.addEventListener("DOMContentLoaded", () => {
     { threshold: 0.1 },
   );
 
-  // Fetch Projects JSON
-  fetch("projetos.json")
-    .then((response) => {
-      if (!response.ok)
-        throw new Error(
-          "Erro na rede ao carregar projetos.json: " + response.statusText,
-        );
-      return response.json();
-    })
-    .then((data) => {
-      const projectsGrid = document.querySelector(".projects-grid");
-      if (projectsGrid) {
-        projectsGrid.innerHTML = "";
-        data.forEach((project, index) => {
-          const article = document.createElement("article");
-          article.className = "project-card";
-          if (index < 12) article.style.transitionDelay = `${index * 100}ms`;
+  // Configuração dos Cards de Projetos (Estáticos no HTML)
+  const projectCards = document.querySelectorAll(".project-card");
+  projectCards.forEach((card, index) => {
+    // Aplica delay na animação apenas nos primeiros itens para efeito cascata
+    if (index < 12) card.style.transitionDelay = `${index * 100}ms`;
 
-          const tagsHtml = project.tags
-            .map((tag) => `<span>${tag}</span>`)
-            .join("");
-          article.innerHTML = `
-                        <div class="project-image"><img src="${project.image}" alt="${project.alt}"></div>
-                        <div class="project-content">
-                            <h4>${project.title}</h4>
-                            <p>${project.description}</p>
-                            <div class="tags">${tagsHtml}</div>
-                        </div>
-                    `;
-          article.addEventListener("click", () =>
-            window.open(project.image, "_blank"),
-          );
-          projectsGrid.appendChild(article);
-          cardObserver.observe(article);
-        });
-      }
-    })
-    .catch((error) => console.error("Erro ao carregar projetos:", error));
+    // Observa o card para animação de scroll
+    cardObserver.observe(card);
+
+    // Adiciona evento de clique para abrir a imagem
+    card.addEventListener("click", () => {
+      const img = card.querySelector("img");
+      if (img) window.open(img.src, "_blank");
+    });
+  });
 
   // Efeito de Partículas
   const initParticles = () => {
