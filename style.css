@@ -337,7 +337,7 @@ section {
 .project-card:hover {
     transform: translateY(-7px) scale(1.03);
     box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
-    background: #f0f6ff;
+    /* background: #f0f6ff; */
 }
 
 .project-image {
