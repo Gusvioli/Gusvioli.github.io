@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LinkOK – Política de Privacidade</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { max-width: 720px; margin: 40px auto; padding: 0 20px; font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #14202e; background: #f3f5f8; }
+    h1 { font-size: 28px; margin-bottom: 4px; }
+    h2 { font-size: 20px; margin-top: 32px; }
+    .date { color: #5b6878; margin-top: 0; }
+    a { color: #0f5c63; }
+    code { background: rgba(15, 92, 99, 0.12); padding: 1px 5px; border-radius: 4px; font-size: 0.92em; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #101820; color: #e6ebf1; }
+      .date { color: #9aa7b6; }
+      a { color: #6fc3cb; }
+    }
+  </style>
+</head>
+<body>
+  <h1>LinkOK – Política de Privacidade</h1>
+  <p class="date">Última atualização: 28 de outubro de 2026</p>
+
+  <p>O LinkOK é uma extensão para o Google Chrome que verifica os links de cada página e destaca os que parecem suspeitos ou perigosos. Esta política explica quais dados a extensão trata e como.</p>
+
+  <h2>O que a extensão processa</h2>
+  <p>Para cumprir sua única finalidade, a extensão lê, em cada página que você abre, os endereços (URLs) e o texto dos links (<code>&lt;a href&gt;</code>). Essa análise é feita <strong>localmente, dentro do seu navegador</strong>. A extensão não envia esses dados ao desenvolvedor, não usa servidores próprios e não possui ferramentas de análise de uso (analytics) nem rastreamento.</p>
+
+  <h2>Consulta opcional ao Google Safe Browsing</h2>
+  <p>Por padrão, nenhum dado sai do seu navegador. Se você optar por informar uma chave de API do Google Safe Browsing nas configurações, a extensão passa a enviar ao Google, para checagem em listas de phishing e malware, os <strong>endereços dos links</strong> encontrados nas páginas que você abre, usando a sua chave de API. Como os endereços de links podem conter parâmetros, esse envio deve ser feito apenas se você concordar com ele.</p>
+  <p>Não são enviados o texto dos links, o conteúdo das páginas nem o endereço da página que você está visitando. O Google trata os dados recebidos conforme a <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Política de Privacidade do Google</a>. Para parar o envio, remova a chave nas configurações da extensão.</p>
+
+  <h2>O que fica armazenado</h2>
+  <p>A extensão guarda no armazenamento local do navegador (<code>chrome.storage.local</code>) apenas as suas preferências (verificação automática, confirmação antes de abrir links perigosos, marcação de links sem alertas) e, se você a informar, a chave de API. Esses dados não são sincronizados com a sua conta Google e são apagados ao remover a extensão ou ao clicar em "Salvar chave" com o campo vazio.</p>
+
+  <h2>Compartilhamento</h2>
+  <p>O desenvolvedor não coleta, vende, aluga nem compartilha dados de usuários. Os dados não são usados para publicidade, criação de perfis, avaliação de crédito ou qualquer finalidade alheia à verificação de links. A única transmissão a terceiros é a consulta opcional ao Google descrita acima.</p>
+
+  <h2>Permissões</h2>
+  <p><code>storage</code>: salvar suas preferências e a chave opcional. <code>https://safebrowsing.googleapis.com/*</code>: consultar o Google Safe Browsing quando você informa uma chave. Acesso às páginas (http e https): ler os links da página para analisá-los e destacá-los.</p>
+
+  <h2>Alterações</h2>
+  <p>Se esta política mudar, a data acima será atualizada e, se a mudança for relevante, a extensão avisará os usuários.</p>
+
+  <h2>Contato</h2>
+  <p>Dúvidas sobre privacidade: <a href="mailto:gusvioli.dev@gmail.com">gusvioli.dev@gmail.com</a></p>
+</body>
+</html>
